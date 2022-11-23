@@ -36,6 +36,13 @@
               </li>
               {% endif %}
             </ul>
+			{% if post.github %}
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<a href="{{post.github}}" class="btn btn-lg btn-outline">
+				<i class="fa fa-download"></i> Download Theme
+				</a>
+			</div>
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
