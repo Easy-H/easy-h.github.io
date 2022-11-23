@@ -38,15 +38,13 @@
             </ul>
 			<ul class="list-inline item-details">
               
-			{% if post.github %}
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<a href="{{post.github}}" class="btn btn-default">
-				<i class="fa fa-download"></i> Show In Github
-				</a>
-			</div>
-            {% endif %}
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+				{% if post.github %}
+				<button class="col-lg-8 col-lg-offset-2 text-center" a href="{{post.github}}" class="btn btn-default">
+					<i class="fa-brands fa-fw fa-github"></i> Show In Github
+				</button>
+				{% endif %}
+				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+				Close</button>
             </ul>
           </div>
         </div>
