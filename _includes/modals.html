@@ -20,12 +20,21 @@
 			<h2>게임 소개</h2>
             <hr class="star-primary">
             <p>{{ post.description }}</p>
+			<br><br>
             {% endif %}
             {% if post.role %}
 			<h2>역할</h2>
             <hr class="star-primary">
             <p>{{ post.role }}</p>
+			<br><br>
             {% endif %}
+			{% if post.video %}
+			<h2>플레이 영상</h2>
+            <hr class="star-primary">
+			<video src = "video/{{ post.video }}" class="img-responsive img-centered" controls>
+			이 브라우저에서 지원하지 않는 영상입니다.
+			</video>
+			{% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -43,11 +52,6 @@
               </li>
               {% endif %}
             </ul>
-			{% if post.video %}
-			<h2>플레이 영상</h2>
-            <hr class="star-primary">
-			<video src = "video/{{ post.video }}" class="img-responsive img-centered">플레이 영상</video>
-			{% endif %}
 			<ul class="list-inline item-details">
               
 				{% if post.github %}
