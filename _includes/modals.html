@@ -39,9 +39,11 @@
 			<ul class="list-inline item-details">
               
 				{% if post.github %}
-				<button class="btn btn-default" a href="{{post.github}}">
+				<a href="{{post.github}}">
+				<button class="btn btn-default" >
 					<i class="fa-brands fa-fw fa-github"></i> Show In Github
 				</button>
+				</a>
 				{% endif %}
 				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
 				Close</button>
