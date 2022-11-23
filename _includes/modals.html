@@ -18,10 +18,12 @@
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
 			<h2>게임 소개</h2>
+            <hr class="star-primary">
             <p>{{ post.description }}</p>
             {% endif %}
             {% if post.role %}
 			<h2>역할</h2>
+            <hr class="star-primary">
             <p>{{ post.role }}</p>
             {% endif %}
             <ul class="list-inline item-details">
@@ -42,7 +44,9 @@
               {% endif %}
             </ul>
 			{% if post.video %}
-			<video src = "video/{{ post.video }}">플레이 영상</video>
+			<h2>플레이 영상</h2>
+            <hr class="star-primary">
+			<video src = "video/{{ post.video }}" class="img-responsive img-centered">플레이 영상</video>
 			{% endif %}
 			<ul class="list-inline item-details">
               
