@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2022-09-05
-img: littleplanet.png
+img: submarine.png
 alt: image-alt
 project-date: Agust 2022
 category: 개인 프로젝트
