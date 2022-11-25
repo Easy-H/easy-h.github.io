@@ -181,7 +181,7 @@ section h2 {
 }
 
 section.success {
-    color: #{{ site.color.secondary-dark }};
+    color: #000;
     background: #{{ site.color.primary-rgb }};
 }
 
