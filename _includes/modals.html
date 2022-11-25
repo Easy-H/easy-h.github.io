@@ -31,7 +31,7 @@
 			{% if post.video %}
 			<h2>플레이 영상</h2>
             <hr class="star-primary">
-			<video src = "video/{{ post.video }}" class="img-responsive img-centered" controls>
+			<video src = "{{ post.video }}" class="img-responsive img-centered" controls>
 			이 브라우저에서 지원하지 않는 영상입니다.
 			</video>
 			{% endif %}
