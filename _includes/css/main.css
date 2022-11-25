@@ -185,6 +185,11 @@ section.success {
     background: #{{ site.color.primary-rgb }};
 }
 
+section .portfolio {
+	background: #{{ site.color.primary }};
+	
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
