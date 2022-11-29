@@ -2,7 +2,8 @@
 layout: default
 modal-id: 1
 date: 2022-07-18
-img: crossnumber.png
+img: crossnumber/crossnumber.png
+screenshot: { crossnumber/screenshot1.png,  crossnumber/screenshot2.png }
 alt: image-alt
 project-date: June 2022
 category: 개인 프로젝트
