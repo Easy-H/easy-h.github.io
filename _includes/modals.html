@@ -41,6 +41,7 @@
               }
               
               function showSlides(n) {
+                alert(slideIndex);
                 let i;
                 let slides = document.getElementsByClassName("mySlides");
                 if (n > slides.length) {slideIndex = 1}
@@ -50,7 +51,6 @@
                 }
                 slides[slideIndex-1].style.display = "block";
                 dots[slideIndex-1].className += " active";
-                alert(n);
               }
             </script>
             <div class="slideshow-container">
