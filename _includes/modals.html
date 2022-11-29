@@ -14,62 +14,44 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
-            {% if post.video %}
             <hr class="star-primary">
-			      <video src = "/video/{{ post.video }}" class="img-responsive img-centered" controls>
-			      이 브라우저에서 지원하지 않는 영상입니다.
-			      </video>
+            {% if post.video %}
+            <video src="/video/{{ post.video }}" class="img-responsive img-centered" controls>
+              이 브라우저에서 지원하지 않는 영상입니다.
+            </video>
             <br><br>
             {% else %}
-              {% if post.screenshot %}
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-              
-              <div id="slider">
-              
-                <ul class="slides">
-                  <!-- 이 부분을 자신의 상황에 맞게 수정 -->
-                  <!-- 5개의 이미지 목록으로 구성한 슬라이드를 만들고 싶다면, 목록 처음과 끝에 복사본을 붙여넣어야함 -->
-                  <!-- 목록 처음에는 5번 이미지의 복사본을 붙여넣음  -->
-                  <!-- 목록 끝에는 1번 이미지의 복사본을 붙여넣음  -->
-                  <!-- 자세한 설명은 http://blog.naver.com/2woo30225/220838511483 에서 참고 -->
-                  <!--<li class="slide slide5">slide5의 복사본을 붙여 넣음</li>-->
-                  {% for shot in post.screenshot %}
-                    <li class="slide slide{{forloop.counter}}"><img src="img/portfolio/{{ shot }}" class="img-responsive img-centered" alt="{{ post.alt }}"></li>
-                  {% endfor %}
-                  <!--<li class="slide slide1">slide1의 복사본을 붙여 넣음</li>-->
-                </ul>
-              
-                <div id="slider-nav">
-                  <div id="slider-nav-prv">&#10094;</div> //이전 이미지 보기 버튼
-                  <div id="slider-nav-nxt">&#10095;</div> // 다음 이미지 보기 버튼
-                  <div id="slider-nav-dot-con">
-                    <!-- 이 부분을 자신의 상황에 맞게 수정 -->
-                    <!-- 복사본을 제외한 슬라이드 개수가 5개라면 li는 5개-->
-                    <!-- id는 반드시 nav-dot1 부터 시작해서 nva-dot2 nav-dot3 ... nav-dot5와 같은 형태로 작성해야 함 -->
-                    {% for shot in post.screenshot %}
-                      <span class="slider-nav-dot" style="background:white" id="nav-dot{{forloop.counter}}"></span>
-                    {% endfor %}
-                    <!-- 여기까지 수정 -->
-                  </div>
+            {% if post.screenshot %}
+            <!-- Slideshow container -->
+            <script src="image_slide.js"></script>
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              {% for shot in post.screenshot %}
+                <div class="mySlides fade">
+                  <img src="img/portfolio/{{ shot }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                 </div>
-              
-              </div>
-              {% else %}
-                <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-			        {% endif %}
+              {% endfor %}
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            {% else %}
+            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            {% endif %}
             {% endif %}
             {% if post.description %}
-			      <h2>게임 소개</h2>
+            <h2>게임 소개</h2>
             <hr class="star-primary">
             <p>{{ post.description }}</p>
-			      <br><br>
+            <br><br>
             {% endif %}
             {% if post.role %}
-			      <h2>역할</h2>
+            <h2>역할</h2>
             <hr class="star-primary">
             <p>{{ post.role }}</p>
-			      <br><br>
+            <br><br>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
@@ -88,17 +70,17 @@
               </li>
               {% endif %}
             </ul>
-			<ul class="list-inline item-details">
-              
-				{% if post.github %}
-				<a href="{{post.github}}">
-				<button class="btn btn-default" >
-					<i class="fa-brands fa-fw fa-github"></i> Show In Github
-				</button>
-				</a>
-				{% endif %}
-				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-				Close</button>
+            <ul class="list-inline item-details">
+
+              {% if post.github %}
+              <a href="{{post.github}}">
+                <button class="btn btn-default">
+                  <i class="fa-brands fa-fw fa-github"></i> Show In Github
+                </button>
+              </a>
+              {% endif %}
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                Close</button>
             </ul>
           </div>
         </div>
