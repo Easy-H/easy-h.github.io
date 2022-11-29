@@ -14,7 +14,6 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
             {% if post.video %}
             <hr class="star-primary">
 			      <video src = "/video/{{ post.video }}" class="img-responsive img-centered" controls>
@@ -23,9 +22,39 @@
             <br><br>
             {% else %}
               {% if post.screenshot %}
-              {% for shot in post.screenshot %}
-                <img src="img/portfolio/{{ shot }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-              {% endfor %}
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+              
+              <div id="slider">
+              
+                <ul class="slides">
+                  <!-- 이 부분을 자신의 상황에 맞게 수정 -->
+                  <!-- 5개의 이미지 목록으로 구성한 슬라이드를 만들고 싶다면, 목록 처음과 끝에 복사본을 붙여넣어야함 -->
+                  <!-- 목록 처음에는 5번 이미지의 복사본을 붙여넣음  -->
+                  <!-- 목록 끝에는 1번 이미지의 복사본을 붙여넣음  -->
+                  <!-- 자세한 설명은 http://blog.naver.com/2woo30225/220838511483 에서 참고 -->
+                  <!--<li class="slide slide5">slide5의 복사본을 붙여 넣음</li>-->
+                  {% for shot in post.screenshot %}
+                    <li class="slide slide{{forloop.counter}}"><img src="img/portfolio/{{ shot }}" class="img-responsive img-centered" alt="{{ post.alt }}"></li>
+                  {% endfor %}
+                  <!--<li class="slide slide1">slide1의 복사본을 붙여 넣음</li>-->
+                </ul>
+              
+                <div id="slider-nav">
+                  <div id="slider-nav-prv">&#10094;</div> //이전 이미지 보기 버튼
+                  <div id="slider-nav-nxt">&#10095;</div> // 다음 이미지 보기 버튼
+                  <div id="slider-nav-dot-con">
+                    <!-- 이 부분을 자신의 상황에 맞게 수정 -->
+                    <!-- 복사본을 제외한 슬라이드 개수가 5개라면 li는 5개-->
+                    <!-- id는 반드시 nav-dot1 부터 시작해서 nva-dot2 nav-dot3 ... nav-dot5와 같은 형태로 작성해야 함 -->
+                    {% for shot in post.screenshot %}
+                      <span class="slider-nav-dot" style="background:white" id="nav-dot{{forloop.counter}}"></span>
+                    {% endfor %}
+                    <!-- 여기까지 수정 -->
+                  </div>
+                </div>
+              
+              </div>
               {% else %}
                 <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 			        {% endif %}
