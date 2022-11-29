@@ -22,9 +22,9 @@
 			      이 브라우저에서 지원하지 않는 영상입니다.
 			      </video>
             {% elif post.screenshot %}
-              <!--{% for shot in post.screenshot %}
+              {% for shot in post.screenshot %}
                 <img src="img/portfolio/{{ shot }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-              {% endfor %}-->
+              {% endfor %}
             {% else %}
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 			      {% endif %}
