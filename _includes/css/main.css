@@ -533,6 +533,10 @@ footer .footer-below {
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
+
+  .prev {
+    margin-left: 0px;
+  }
   
   /* Caption text */
   .text {
