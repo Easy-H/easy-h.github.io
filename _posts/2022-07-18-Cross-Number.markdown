@@ -3,8 +3,8 @@ layout: default
 modal-id: 1
 date: 2022-07-18
 img: crossnumber/crossnumber.png
-screenshot: [ 'crossnumber/screenshot1.png',  'crossnumber/screenshot2.png' ]
 alt: image-alt
+video: crossnumber.mp4
 project-date: June 2022
 category: 개인 프로젝트
 github: https://github.com/Easy-H/CrossNumber

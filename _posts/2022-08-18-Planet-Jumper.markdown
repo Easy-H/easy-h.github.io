@@ -4,6 +4,7 @@ modal-id: 5
 date: 2022-07-18
 img: planetjumper.png
 alt: image-alt
+video: planetjumper
 project-date: August 2022
 category: 개인 프로젝트
 github: https://github.com/Easy-H/Circle
