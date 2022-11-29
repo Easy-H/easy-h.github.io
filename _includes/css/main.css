@@ -527,6 +527,11 @@ footer .footer-below {
     border-radius: 3px 0 0 3px;
   }
   
+.prev, .next {
+    background-color: white;
+
+}
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
