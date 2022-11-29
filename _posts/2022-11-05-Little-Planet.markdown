@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2022-11-05
-img: littleplanet.png
+img: littleplanet/littleplanet.png
 alt: image-alt
 project-date: June 2022
 category: 팀 프로젝트
