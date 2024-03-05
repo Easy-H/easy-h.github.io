@@ -2,11 +2,14 @@
 layout: default
 modal-id: 2
 date: 2022-07-18
-img: townguardian.png
+img: crossnumber/crossnumber.png
 alt: image-alt
+video: crossnumber.mp4
 project-date: June 2022
-category: 팀 프로젝트
-github: https://github.com/SodaXI/Town-Gardian
-description: 망치, 총, 검 등의 다양한 무기를 사용하여 적을 물리치는 3D 로그라이크 게임입니다.<br><br>성장하며 다양한 무기를 획득할 수 있고, 더욱 강해진 적과 상대하여야 합니다.<br><br>게임의 프로그래밍을 담당하고 있습니다.<br><br>2022년 게임인 해커톤 1등 수상작 입니다.
-role: <h3>프로그래밍</h3>플레이어 이동 구현<br>카메라 이동 구현<br>무기 시스템 최적화<br>상점 시스템 최적화
+category: 개인 프로젝트
+github: https://github.com/Easy-H/CrossNumber
+description: 주어진 숫자와 기호를 활용하여 식을 완성하는 퍼즐 게임입니다. <br><br>주어진 숫자와 기호를 통해 완성된 식을 유추하고, 숫자와 기호를 드래그 & 드롭을 하여 식을 완성합니다.<br><br>올바른 식을 유추하는 과정에서 암산 능력과 추론 능력을 향상할 수 있으며, 다양한 구조의 식을 완성하는 과정에서 올바른 수학적 사고능력을 기를 수 있습니다.
+role:
+<h3>게임 기획</h3>
+<h3>프로그래밍</h3>
 ---
