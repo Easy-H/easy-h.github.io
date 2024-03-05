@@ -2,8 +2,8 @@
 layout: default
 modal-id: 4
 date: 2024-03-05
-itch: <iframe frameborder="0" src="https://itch.io/embed-upload/9382981?color=fa6799" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 img: superpongbros-source.png
+itch: <iframe frameborder="0" src="https://itch.io/embed-upload/9382981?color=fa6799" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 alt: image-alt
 project-date: September 2022
 category: 개인 프로젝트
