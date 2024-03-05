@@ -186,7 +186,7 @@ section.success {
 }
 
 section .portfolio {
-	background: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary }};
 	
 }
 
