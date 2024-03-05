@@ -217,7 +217,7 @@ section .portfolio {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary }};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
