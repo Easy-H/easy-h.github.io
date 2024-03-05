@@ -172,7 +172,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
@@ -202,6 +202,7 @@ section .portfolio {
 
 #portfolio .portfolio-item {
     right: 0;
+    position: relative;
     margin: 0 0 15px;
 }
 
@@ -260,6 +261,20 @@ section .portfolio {
     }
 }
 
+/* Flexbox Portfolio Grid */
+@media (min-width: 0px) {
+    .portfolio-flex-grid .portfolio-flex-row {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+        flex: 1 0 98%;
+        max-width: 98%;
+        padding-bottom: 98%;
+    }
+}
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
