@@ -1,6 +1,7 @@
 ---
 project-name: Super Pong Brothers
 layout: default
+tag: portfolio
 modal-id: 1
 date: 2024-03-05
 img: superpongbros-source.png

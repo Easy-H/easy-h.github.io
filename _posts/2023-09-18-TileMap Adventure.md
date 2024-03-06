@@ -1,6 +1,7 @@
 ---
 project-name: TileMap Adventure
 layout: default
+tag: portfolio
 modal-id: 4
 date: 2024-03-05
 category: 팀 프로젝트

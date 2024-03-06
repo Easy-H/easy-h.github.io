@@ -1,6 +1,7 @@
 ---
 project-name: Cross Number
 layout: default
+tag: portfolio
 modal-id: 2
 date: 2022-07-18
 img: crossnumber-source.png
