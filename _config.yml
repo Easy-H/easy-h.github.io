@@ -1,10 +1,16 @@
 # Site settings
 title: 이지헌의 포트폴리오
 email: skysea001010@gmail.com
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://easy-h.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "C, C++, C#, Java, Unity, Unreal"
+skills: 
+  name: "C"
+  name: "C++"
+  name: "C#"
+  name: "Java"
+  name: "Unity"
+  name: "Unreal"
 meta_author: Lee Ji-Heon
 
 # Google webmaster tools

@@ -371,6 +371,7 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -381,6 +382,12 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+}
+
+.btn-social:hover {
+    color: #{{ site.color.primary }};
+    border: 2px solid #{{ site.color.primary }};
+    border-radius: 100%;
 }
 
 .btn:focus,
