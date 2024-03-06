@@ -13,6 +13,9 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
+            {% if post.category %}
+            <h4>{{ post.category }}</h4>
+            {% endif %}
             <h2>{{ post.project-name }}</h2>
             <hr class="star-primary">
             {% if post.html %}
@@ -22,9 +25,6 @@
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% endif %}
             <!--  -->
-            {% if post.category %}
-            <h4>{{ post.category }}</h4>
-            {% endif %}
             {% if post.genre %}
             <h4>장르: {{ post.genre }}</h4>
             {% endif %}
@@ -44,11 +44,6 @@
               {% if post.client %}
               <li>Client:
                 <strong>{{ post.client }}</strong>
-              </li>
-              {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
             </ul>
