@@ -4,7 +4,7 @@ modal-id: 2
 date: 2022-07-18
 img: crossnumber-source.png
 alt: image-alt
-video: crossnumber.mp4
+html: <video src="portfolio/video/crossnumber.mp4" class="img-responsive img-centered" controls>
 project-date: June 2022
 category: 개인 프로젝트
 github: https://github.com/Easy-H/CrossNumber

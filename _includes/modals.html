@@ -15,18 +15,11 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            {% if post.itch %}
-            {{ post.itch }}
-            <br><br>
-            {% else %}
-            {% if post.video %}
-            <video src="portfolio/video/{{ post.video }}" class="img-responsive img-centered" controls>
-              이 브라우저에서 지원하지 않는 영상입니다.
-            </video>
+            {% if post.html %}
+            {{ post.html }}
             <br><br>
             {% else %}
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% endif %}
             {% endif %}
             {% if post.description %}
             <h2>게임 소개</h2>

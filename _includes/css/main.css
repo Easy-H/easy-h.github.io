@@ -202,7 +202,9 @@ section .portfolio {
 #portfolio .portfolio-item {
     right: 0;
     position: relative;
-    margin: 0 0 15px;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -252,49 +254,11 @@ section .portfolio {
     z-index: 2;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-        position: relative;
-    }
-}
-
-/* Flexbox Portfolio Grid */
-@media (min-width: 0px) {
-    .portfolio-flex-grid .portfolio-flex-row {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-        justify-content: space-between;
-    }
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-        flex: 1 0 98%;
-        max-width: 98%;
-        padding-bottom: 98%;
-    }
-}
-/* Flexbox Portfolio Grid */
-@media (min-width: 640px) {
-    .portfolio-flex-grid .portfolio-flex-row {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-        justify-content: space-between;
-    }
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-        flex: 1 0 49%;
-        max-width: 49%;
-        padding-bottom: 49%;
-    }
-}
-
-@media (min-width: 960px) {
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-        flex: 1 0 32%;
-        max-width: 32%;
-        padding-bottom: 32%;
-    }
-      
+.portfolio-flex-grid .portfolio-flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
 }
     
 .portfolio-inner {
