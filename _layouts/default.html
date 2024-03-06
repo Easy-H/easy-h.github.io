@@ -8,6 +8,12 @@
   {% include about.html %}
   
   {% include portfolio_grid.html %}
+
+  
+  {% for post in site.activity %}
+  <p>1</p>
+  {% endfor %}
+
   {% if site.contact == "static" %}
   {% include contact_static.html %}
   {% elsif site.contact == "disqus" %}

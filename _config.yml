@@ -75,5 +75,5 @@ defaults:
   - scope:
       path: ""
       type: "posts"
-    values:
+      values:
       permalink: ""
