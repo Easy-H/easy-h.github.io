@@ -182,7 +182,6 @@ section h2 {
 
 section.success {
     color: #{{ site.color.secondary-dark }};
-    background: #{{ site.color.primary-rgb }};
 }
 
 section .portfolio {
@@ -226,7 +225,7 @@ section .portfolio {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: .8;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
