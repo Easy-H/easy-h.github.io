@@ -205,6 +205,7 @@ section .portfolio {
     width: 100px;
     height: 100px;
     margin: 15px;
+    margin-bottom: 60px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -265,6 +266,14 @@ section .portfolio {
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.portfolio-txt {
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
 }
 
   /* A large grid might need four columns on widescreen layouts */

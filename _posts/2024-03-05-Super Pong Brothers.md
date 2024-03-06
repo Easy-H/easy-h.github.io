@@ -1,4 +1,5 @@
 ---
+project-name: Super Pong Brothers
 layout: default
 modal-id: 1
 date: 2024-03-05
