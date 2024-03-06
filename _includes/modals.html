@@ -21,16 +21,17 @@
             {% else %}
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% endif %}
-            <hr class="star-primary">
+            <!-- <h2>게임 소개</h2>
+            <hr class="star-primary"> -->
             {% if post.genre %}
             <h3>장르: {{ post.genre }}</h3>
             {% endif %}
             {% if post.tool %}
             <h3>개발 도구: {{ post.tool }}</h3>
             {% endif %}
+            <br><br>
             {% if post.description %}
             <p>{{ post.description }}</p>
-            <br><br>
             {% endif %}
             {% if post.role %}
             <h2>담당</h2>
