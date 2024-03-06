@@ -10,19 +10,19 @@
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
-        <div class="portfolio-inner">
-          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-            <div class="box-modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-1.5x"></i>
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-inner">
+              <div class="box-modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-1.5x"></i>
+                  </div>
                 </div>
+                <img src="img/portfolio/{{ post.img }}" class="img-modal" alt="{{ post.alt }}">
               </div>
-              <img src="img/portfolio/{{ post.img }}" class="img-modal" alt="{{ post.alt }}">
-            </div>
-          </a>
-        </div>
-        <p class="portfolio-txt">{{ post.project-name }}</p>
+          </div>
+          <p class="portfolio-txt">{{ post.project-name }}</p>
+        </a>
       </div>
       {% endfor %}
     </div>

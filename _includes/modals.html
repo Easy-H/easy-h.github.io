@@ -24,6 +24,12 @@
             {% if post.description %}
             <h2>게임 소개</h2>
             <hr class="star-primary">
+            {% if post.genre %}
+            <h3>장르: {{ post.genre }}</h3>
+            {% endif %}
+            {% if post.tool %}
+            <h3>개발 도구: {{ post.tool }}</h3>
+            {% endif %}
             <p>{{ post.description }}</p>
             <br><br>
             {% endif %}
