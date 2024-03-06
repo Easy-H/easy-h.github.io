@@ -21,23 +21,24 @@
             {% else %}
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% endif %}
-            <!-- <h2>게임 소개</h2>
-            <hr class="star-primary"> -->
+            <!--  -->
+            {% if post.category %}
+            <h4>{{ post.category }}</h4>
+            {% endif %}
             {% if post.genre %}
             <h4>장르: {{ post.genre }}</h4>
             {% endif %}
             {% if post.tool %}
             <h4>개발 도구: {{ post.tool }}</h4>
             {% endif %}
-            <br><br>
-            {% if post.description %}
-            <p>{{ post.description }}</p>
-            {% endif %}
             {% if post.role %}
-            <h2>담당</h2>
-            <hr class="star-primary">
-            <p>{{ post.role }}</p>
+            <h4>담당: {{ post.role }}</h4>
+            {% endif %}
             <br><br>
+            {% if post.desc %}
+            <h2>게임 소개</h2>
+            <hr class="star-primary">
+            <p>{{ post.desc }}</p>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
@@ -48,11 +49,6 @@
               {% if post.project-date %}
               <li>Date:
                 <strong>{{ post.project-date }}</strong>
-              </li>
-              {% endif %}
-              {% if post.category %}
-              <li>Category:
-                <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
             </ul>
