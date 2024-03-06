@@ -20,11 +20,10 @@
             <br><br>
             {% else %}
             {% if post.video %}
-            <video src="/video/{{ post.video }}" class="img-responsive img-centered" controls>
+            <video src="portfolio/video/{{ post.video }}" class="img-responsive img-centered" controls>
               이 브라우저에서 지원하지 않는 영상입니다.
             </video>
             <br><br>
-            {% else %}
             {% else %}
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% endif %}
