@@ -22,7 +22,7 @@
     height: 100%;
     border-radius: 30%;
     border: solid;
-    border-color: #{{ site.color.secondary }}
+    border-color: #{{ site.color.secondary }};
     overflow: hidden;
     position: relative;
 }
