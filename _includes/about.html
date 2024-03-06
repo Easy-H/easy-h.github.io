@@ -13,7 +13,7 @@
         <ul class="list-inline">
           {% for skill in site.skills %}
           <li>
-            <i class="fa-brands fa-fw fa-{{ skill.name }}"></i>
+            {{ skill.show }}
           </li>
           {% endfor %}
         </ul>

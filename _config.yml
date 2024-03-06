@@ -6,11 +6,17 @@ description: "Write an awesome description for your new site here. You can edit 
 keywords: "your keywords, separated by commas"
 skills: 
   - name: "C"
+    show: <p>C</p>
   - name: "C++"
+    show: <p>C++</p>
   - name: "C#"
+    show: <p>C#</p>
   - name: "java"
+    show: <i class="fa-brands fa-fw fa-java"></i>
   - name: "unity"
+    show: <i class="fa-brands fa-fw fa-unity"></i>
   - name: "unreal"
+    show: <p>Unreal</p>
 meta_author: Lee Ji-Heon
 
 # Google webmaster tools
