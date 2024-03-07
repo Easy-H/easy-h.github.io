@@ -1,14 +1,12 @@
 ---
 project-name: Cross Number
-layout: default
-tag: portfolio
+layout: portfolio-project
+tag: 개인 프로젝트
 modal-id: 2
-date: 2022-07-18
 img: crossnumber-source.png
 alt: image-alt
 html: <video src="portfolio/video/crossnumber.mp4" class="img-responsive img-centered" controls></video>
 project-date: June 2022
-category: 개인 프로젝트
 github: https://github.com/Easy-H/CrossNumber
 ---
 장르: 퍼즐

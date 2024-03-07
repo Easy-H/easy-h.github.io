@@ -1,10 +1,8 @@
 ---
 project-name: TileMap Adventure
-layout: default
-tag: portfolio
+layout: portfolio-project
+tag: 팀 프로젝트
 modal-id: 4
-date: 2024-03-05
-category: 팀 프로젝트
 img: tilemap-adventure.png
 html: <iframe height="167" frameborder="0" src="https://itch.io/embed/2398125" width="552"><a href="https://sodaxi.itch.io/tile-adventure">TileMapAdventure by SodaXI</a></iframe>
 alt: image-alt

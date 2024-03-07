@@ -1,13 +1,11 @@
 ---
 project-name: Town Guardian
 layout: portfolio-project
-tag: portfolio
+tag: 참여 프로젝트
 modal-id: 3
-date: 2022-07-18
 img: townguardian.png
 alt: image-alt
 project-date: June 2022
-category: 참여 프로젝트
 github: https://github.com/SodaXI/Town-Gardian
 genre: TPS, 로그라이크
 tool: Unity
