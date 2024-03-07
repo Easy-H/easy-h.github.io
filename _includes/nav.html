@@ -25,9 +25,11 @@
           <a href="#page-top"></a>
         </li>
         {% for item in site.data.navigation %}
-          <a href="{{ item.link }}" {% if page.url == item.link %} style="color: red;" {% endif %}>
-            {{ item.name }}
-          </a>
+          <li class="page-scroll">
+            <a href="{{ item.link }}" {% if page.url == item.link %} style="color: red;" {% endif %}>
+              {{ item.name }}
+            </a>
+          </li>
         {% endfor %}
         <li class="page-scroll">
           <a href="{{ site.url }}/portfolio">작업물</a>
