@@ -4,8 +4,10 @@ layout: portfolio
 tag: 개인 프로젝트
 img: crossnumber-source.png
 alt: image-alt
-github: https://github.com/Easy-H/CrossNumber
 project-date: June 2022
+social:
+  - title: github
+    url: https://github.com/Easy-H/CrossNumber
 html: <video src="{{ site.url }}/portfolio/video/crossnumber.mp4" class="img-responsive img-centered" controls></video>
 ---
 # 게임 소개

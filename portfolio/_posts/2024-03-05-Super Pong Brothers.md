@@ -4,8 +4,12 @@ layout: portfolio
 tag: 개인 프로젝트
 img: superpongbros-source.png
 alt: image-alt
-github: https://github.com/Easy-H/Break-Out
 project-date: September 2022
+social:
+  - title: github
+    url: https://github.com/Easy-H/Break-Out
+  - title: itch-io
+    url: https://easy-h.itch.io/superpongbros
 html: <iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 ---
 # 게임 소개

@@ -4,9 +4,13 @@ layout: portfolio
 tag: 팀 프로젝트
 img: tilemap-adventure.png
 alt: image-alt
-github: https://github.com/B0Light/Project_SWENG
 project-date: September 2023
-html: <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
+social:
+  - title: github
+    url: https://github.com/B0Light/Project_SWENG
+  - title: itch-io
+    url: https://sodaxi.itch.io/tile-adventure
+html: <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
 ---
 # 게임 소개
 ---

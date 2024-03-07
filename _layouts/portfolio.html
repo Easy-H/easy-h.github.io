@@ -15,20 +15,21 @@ layout: default
       {% endif %}
       <br><br>
       <ul class="list-inline item-details">
-        {% if page.github %}
-        <a href="{{ page.github }}">
-            <button class="btn btn-default">
-            <i class="fa-brands fa-fw fa-github"></i> Show In Github
-          </button>
-        </a>
-        {% endif %}
+        {% for network in page.link %}
+        <li>
+          <a href="{{ network.url }}" class="btn-social btn-outline">
+            <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+        </li>
+        {% endfor %}
       </ul>
       {% if page.desc %}
       <h2>게임 소개</h2>
       <hr class="star-primary">
       <p>{{ page.desc }}</p>
       {% endif %}
+      <div class="post">
       {{ page.content }}
+      </div>
       <ul class="list-inline item-details">
         {% if page.client %}
         <li>Client:

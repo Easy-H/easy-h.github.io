@@ -10,8 +10,6 @@ body {
 
 p {
     font-size: 20px;
-    margin: 20px;
-    padding-bottom: 20px
 }
 
 p.small {
@@ -501,6 +499,11 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+.post {
+    max-width: 800px
+
+}
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -581,6 +584,7 @@ footer .footer-below {
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
   
   @keyframes fade {
     from {opacity: .4}

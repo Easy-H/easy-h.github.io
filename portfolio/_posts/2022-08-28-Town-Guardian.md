@@ -4,8 +4,10 @@ layout: portfolio
 tag: 참여 프로젝트
 img: townguardian.png
 alt: image-alt
-github: https://github.com/SodaXI/Town-Gardian
 project-date: June 2022
+social:
+  - title: github
+    url: https://github.com/SodaXI/Town-Gardian
 ---
 # 게임 소개
 ---
