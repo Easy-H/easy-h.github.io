@@ -1,4 +1,23 @@
 ---
-layout: blog
+layout: default
 title: 이지헌의 글
 ---
+<section id="portfolio">
+    <div class="container portfolio-flex-grid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>{{ 글 }}</h2>
+          <hr class="star-primary">
+        </div>
+      </div>
+      <div class="portfolio-flex-row">
+        {% for post in site.categories.blog %}
+        <div class="portfolio-flex-item portfolio-item">
+          <a href="{{ post.url }}" class="portfolio-link">
+            {{ post.title }} | {{ post.tag }}
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
