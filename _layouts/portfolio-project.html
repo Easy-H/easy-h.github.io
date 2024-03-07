@@ -1,5 +1,53 @@
 ---
 layout: default
 ---
-{% include modals.html %}
-{% include js.html %}
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+    <div class="modal-body">
+      {% if post.category %}
+      <h4>{{ post.category }}</h4>
+      {% endif %}
+      <h2>{{ post.project-name }}</h2>
+      <hr class="star-primary">
+      {% if post.html %}
+      {{ post.html }}
+      <br><br>
+      {% else %}
+      <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt='absolute'>
+      {% endif %}
+      <!--  -->
+      {% if post.genre %}
+      <h4>장르: {{ post.genre }}</h4>
+      {% endif %}
+      {% if post.tool %}
+      <h4>개발 도구: {{ post.tool }}</h4>
+      {% endif %}
+      {% if post.role %}
+      <h4>담당: {{ post.role }}</h4>
+      {% endif %}
+      <br><br>
+      {% if post.desc %}
+      <h2>게임 소개</h2>
+      <hr class="star-primary">
+      <p>{{ post.desc }}</p>
+      {% endif %}
+      {{ content }}
+      <ul class="list-inline item-details">
+        {% if post.client %}
+        <li>Client:
+          <strong>{{ post.client }}</strong>
+        </li>
+        {% endif %}
+      </ul>
+      <ul class="list-inline item-details">
+        {% if post.github %}
+        <a href="{{ post.github }}">
+          <button class="btn btn-default">
+            <i class="fa-brands fa-fw fa-github"></i> Show In Github
+          </button>
+        </a>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>

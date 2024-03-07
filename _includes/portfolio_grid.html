@@ -11,7 +11,7 @@
       {% for post in site.posts %}
       {% if post.tag == "portfolio" %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="/{{ post.title }}" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-inner">
               <div class="box-modal">
                 <div class="caption">
@@ -19,7 +19,7 @@
                     <i class="fa fa-search-plus fa-1.5x"></i>
                   </div>
                 </div>
-                <img src="img/portfolio/{{ post.img }}" class="img-modal" alt="{{ post.alt }}">
+                <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-modal" alt="{{ post.alt }}">
               </div>
           </div>
           <p class="portfolio-txt">{{ post.project-name }}</p>
