@@ -37,6 +37,7 @@ h6 {
     text-align: center;
 }
 
+hr,
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -48,6 +49,7 @@ hr.star-primary {
     overflow: visible;
 }
 
+hr,:after,
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
@@ -59,19 +61,23 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+hr,
 hr.star-light {
     border-color: #fff;
 }
 
+hr:after,
 hr.star-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
 
+hr,
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
 }
 
+hr:after,
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;

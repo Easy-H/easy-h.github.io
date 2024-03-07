@@ -9,9 +9,10 @@ html: <video src="portfolio/video/crossnumber.mp4" class="img-responsive img-cen
 project-date: June 2022
 github: https://github.com/Easy-H/CrossNumber
 ---
-장르: 퍼즐
-사용 도구: Unity, Firebase
-담당: 게임 기획, 프로그래밍
+#### 장르: 퍼즐
+#### 사용 도구: Unity, Firebase
+#### 담당: 게임 기획, 프로그래밍
+
 # 게임 소개
 ---
 주어진 숫자와 기호를 활용하여 식을 완성하는 퍼즐 게임입니다.

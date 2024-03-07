@@ -8,10 +8,11 @@ html: <iframe height="167" frameborder="0" src="https://itch.io/embed/2398125" w
 alt: image-alt
 project-date: September 2023
 github: https://github.com/B0Light/Project_SWENG
-genre: 턴제 RPG, 멀티 플레이
-tool: Unity, Photon
-role: 프로그래밍
 ---
+#### 장르: 턴제 RPG, 멀티 플레이
+#### 사용 도구: Unity, Photon
+#### 담당: 프로그래밍
+
 # 게임 소개
 ---
 육각 타일 기반의 멀티플레이 턴제 RPG 게임입니다.

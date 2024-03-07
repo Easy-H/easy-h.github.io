@@ -8,10 +8,11 @@ html: <iframe frameborder="0" src="https://itch.io/embed-upload/9382981?color=fa
 alt: image-alt
 project-date: September 2022
 github: https://github.com/Easy-H/Break-Out
-genre: 벽돌깨기, 슈팅
-tool: Unity, Firebase
-role: 게임 기획, 프로그래밍
 ---
+#### 장르: 벽돌깨기, 슈팅
+#### 사용 도구: Unity, Firebase
+#### 담당: 게임 기획, 프로그래밍
+
 # 게임 소개
 ---
 벽돌깨기와 슈팅 게임을 융합한 게임입니다.

@@ -7,10 +7,11 @@ img: townguardian.png
 alt: image-alt
 project-date: June 2022
 github: https://github.com/SodaXI/Town-Gardian
-genre: TPS, 로그라이크
-tool: Unity
-role: 프로그래밍
 ---
+#### 장르: TPS, 로그라이크
+#### 사용 도구: Unity
+#### 담당: 프로그래밍
+
 # 게임 소개
 ---
 망치, 총, 검 등의 다양한 무기를 사용하여 적을 물리치는 3D 로그라이크 게임입니다.
