@@ -8,6 +8,23 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
+      {% for post in site.categories.portfolio %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-inner">
+              <div class="box-modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-1.5x"></i>
+                  </div>
+                </div>
+                <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-modal" alt="{{ post.alt }}">
+              </div>
+          </div>
+          <p class="portfolio-txt">{{ post.project-name }}</p>
+        </a>
+      </div>
+      {% endfor %}
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
