@@ -227,7 +227,7 @@ section .portfolio {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+a:hover .caption {
     opacity: .8;
 }
 
