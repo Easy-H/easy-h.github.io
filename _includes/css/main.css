@@ -49,7 +49,7 @@ hr.star-primary {
     overflow: visible;
 }
 
-hr,:after,
+hr:after,
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
