@@ -1,30 +1,4 @@
-<!doctype html>
-<html lang="ko">
-  <head>
-  <meta charset="utf-8">
-    <title>Portfolio</title>
-    <style>
-      body { padding: 0px; margin: 0px; }
-      .jb-box { width: 100%; height: 500px; overflow: hidden;margin: 0px auto; position: relative; }
-      video { width: 100%; }
-      .jb-text { position: absolute; top: 50%; width: 100%; }
-      .jb-text p { margin-top: -24px; text-align: center; font-size: 48px; color: #ffffff; }
-    </style>
-  </head>
-  <body>
-    <div class="portfolio-flex-row">
-      {% for post in site.posts %}
-      <div>
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </body>
-</html>
+---
+layout: portfolio
+title: 이지헌의 포트폴리오
+---
