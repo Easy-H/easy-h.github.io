@@ -1,4 +1,4 @@
-- name: 작업물
-  url: /portfolio
-- name: 소개
-  url: /
+- name: Home
+  link: /
+- name: Portfolio
+  link: /portfolio
