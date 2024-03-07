@@ -3,6 +3,8 @@ layout: default
 ---
 {% include about.html %}
 
+{% include portfolio_grid.html %}
+
 {% if site.contact == "static" %}
 {% include contact_static.html %}
 {% elsif site.contact == "disqus" %}
@@ -10,3 +12,5 @@ layout: default
 {% else %}
 {% include contact.html %}
 {% endif %}
+
+{% include modals.html %}

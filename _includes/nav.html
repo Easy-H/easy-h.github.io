@@ -26,7 +26,7 @@
         </li>
         {% for item in site.data.navigation %}
           <li class="page-scroll">
-            <a href="{{ item.link }}" {% if page.url == item.link %} style="color: { site.color.primary }" {% endif %}>
+            <a href="{{ item.link }}" {% if page.url == item.link %} style="color: {{ site.color.primary }}" {% endif %}>
               {{ item.name }}
             </a>
           </li>
