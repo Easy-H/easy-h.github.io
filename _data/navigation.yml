@@ -1,4 +1,4 @@
-- name: Home
+- name: 소개
   link: /
-- name: Portfolio
-  link: /portfolio
+- name: 작업물
+  link: /portfolio/
