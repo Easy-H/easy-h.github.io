@@ -15,20 +15,15 @@ layout: default
       {% endif %}
       <br><br>
       <ul class="list-inline item-details">
-        {% for network in page.link %}
+        {% for network in page.social %}
         <li>
           <a href="{{ network.url }}" class="btn-social btn-outline">
             <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
         </li>
         {% endfor %}
       </ul>
-      {% if page.desc %}
-      <h2>게임 소개</h2>
-      <hr class="star-primary">
-      <p>{{ page.desc }}</p>
-      {% endif %}
       <div class="post">
-      {{ page.content }}
+        {{ page.content }}
       </div>
       <ul class="list-inline item-details">
         {% if page.client %}
