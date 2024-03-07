@@ -1,6 +1,6 @@
 ---
 project-name: Town Guardian
-layout: portfolio-project
+layout: portfolio
 tag: 참여 프로젝트
 img: townguardian.png
 alt: image-alt

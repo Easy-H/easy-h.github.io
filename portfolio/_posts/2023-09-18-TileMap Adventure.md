@@ -1,6 +1,6 @@
 ---
 project-name: TileMap Adventure
-layout: portfolio-project
+layout: portfolio
 tag: 팀 프로젝트
 img: tilemap-adventure.png
 alt: image-alt

@@ -1,6 +1,6 @@
 ---
 project-name: Cross Number
-layout: portfolio-project
+layout: portfolio
 tag: 개인 프로젝트
 img: crossnumber-source.png
 alt: image-alt

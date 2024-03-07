@@ -10,6 +10,8 @@ body {
 
 p {
     font-size: 20px;
+    margin: 20px;
+    padding-bottom: 20px
 }
 
 p.small {
@@ -194,16 +196,6 @@ section.success {
 section .portfolio {
     background-color: #{{ site.color.primary }};
 	
-}
-
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
 }
 
 #portfolio .portfolio-item {

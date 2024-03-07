@@ -1,6 +1,6 @@
 ---
 project-name: Super Pong Brothers
-layout: portfolio-project
+layout: portfolio
 tag: 개인 프로젝트
 img: superpongbros-source.png
 alt: image-alt
