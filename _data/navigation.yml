@@ -1,4 +1,6 @@
-- title: 소개
+- name: 소개
+  title: 소개
   url: ""
-- title: 작업물
+- name: 작업물
+  title: 작업물
   url: "portfolio"
