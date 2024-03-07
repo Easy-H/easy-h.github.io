@@ -2,19 +2,20 @@
 project-name: TileMap Adventure
 layout: portfolio-project
 tag: 팀 프로젝트
-modal-id: 4
 img: tilemap-adventure.png
-html: <iframe height="167" frameborder="0" src="https://itch.io/embed/2398125" width="552"><a href="https://sodaxi.itch.io/tile-adventure">TileMapAdventure by SodaXI</a></iframe>
 alt: image-alt
-project-date: September 2023
 github: https://github.com/B0Light/Project_SWENG
+project-date: September 2023
+html: <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
+---
+# 게임 소개
 ---
 #### 장르: 턴제 RPG, 멀티 플레이
 #### 사용 도구: Unity, Photon
 #### 담당: 프로그래밍
 
-# 게임 소개
----
+
+
 육각 타일 기반의 멀티플레이 턴제 RPG 게임입니다.
 
 턴을 시작할 때 주사위를 굴려 포인트를 얻은 뒤, 얻은 포인트를 활용하여 이동, 공격을 수행합니다.

@@ -2,49 +2,41 @@
 layout: default
 ---
 <section>
-<div class="container text-center">
-  {% if page.tag %}
-    <h4>{{ page.tag }}</h4>
-  {% endif %}
-  <h2>{{ page.project-name }}</h2>
-  <hr class="star-primary">
-  {% if page.html %}
-  {{ page.html }}
-  <br><br>
-  {% else %}
-  <img src="{{ site.url }}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt='absolute'>
-  {% endif %}
-  {% if page.genre %}
-  <h4>장르: {{ page.genre }}</h4>
-  {% endif %}
-  {% if page.tool %}
-  <h4>개발 도구: {{ page.tool }}</h4>
-  {% endif %}
-  {% if page.role %}
-  <h4>담당: {{ page.role }}</h4>
-  {% endif %}
-  <br><br>
-  {% if page.desc %}
-  <h2>게임 소개</h2>
-  <hr class="star-primary">
-  <p>{{ page.desc }}</p>
-  {% endif %}
-  {{ page.content }}
-  <ul class="list-inline item-details">
-    {% if page.client %}
-    <li>Client:
-      <strong>{{ page.client }}</strong>
-    </li>
-    {% endif %}
-  </ul>
-  <ul class="list-inline item-details">
-
-    {% if page.github %}
-    <a href="{{ page.github }}">
-        <button class="btn btn-default">
-        <i class="fa-brands fa-fw fa-github"></i> Show In Github
-      </button>
-    </a>
-    {% endif %}
-</div>
+  <div class="modal-content">
+    <div class="container text-center">
+      {% if page.tag %}
+        <h4>{{ page.tag }}</h4>
+      {% endif %}
+      <h2>{{ page.project-name }}</h2>
+      <hr class="star-primary">
+      {% if page.html %}
+      {{ page.html }}
+      {% else %}
+      <img src="{{ site.url }}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt='absolute'>
+      {% endif %}
+      <br><br>
+      <ul class="list-inline item-details">
+        {% if page.github %}
+        <a href="{{ page.github }}">
+            <button class="btn btn-default">
+            <i class="fa-brands fa-fw fa-github"></i> Show In Github
+          </button>
+        </a>
+        {% endif %}
+      </ul>
+      {% if page.desc %}
+      <h2>게임 소개</h2>
+      <hr class="star-primary">
+      <p>{{ page.desc }}</p>
+      {% endif %}
+      {{ page.content }}
+      <ul class="list-inline item-details">
+        {% if page.client %}
+        <li>Client:
+          <strong>{{ page.client }}</strong>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
 </section>
