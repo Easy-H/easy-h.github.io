@@ -1,6 +1,6 @@
 ---
 project-name: Town Guardian
-layout: default
+layout: portfolio-project
 tag: portfolio
 modal-id: 3
 date: 2022-07-18
