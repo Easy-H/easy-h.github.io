@@ -1,6 +1,5 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
-{% if post.tag == "portfolio" %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
@@ -68,5 +67,4 @@
     </div>
   </div>
 </div>
-{% endif %}
 {% endfor %}
