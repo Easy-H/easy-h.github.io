@@ -26,7 +26,7 @@
         </li>
         {{% for menu in site.data.navigation %}}
         <li class="page-scroll">
-          <a href="{{ site.url }}/{{ menu.url }}">{{ menu.title }}</a>
+          <a href="{{ site.url }}{{ menu.url }}">{{ menu.title }}</a>
         </li>
         {{% endfor %}}
         <li class="page-scroll">

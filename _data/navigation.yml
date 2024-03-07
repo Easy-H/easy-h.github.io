@@ -1,6 +1,6 @@
 - name: 소개
   title: 소개
-  url: ""
+  url: /
 - name: 작업물
-  title: 작업물
-  url: "portfolio"
+  title: 소개
+  url: /portfolio
