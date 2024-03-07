@@ -23,7 +23,7 @@
             {{ post.html }}
             <br><br>
             {% else %}
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt='absolute'>
+            <img src="{{ site.url }}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt='absolute'>
             {% endif %}
             <!--  -->
             {% if post.genre %}
