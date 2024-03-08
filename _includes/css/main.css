@@ -23,7 +23,7 @@ a.portfolio-link ul li {
     font-weight: 1000;
     color: white;
     border-radius: 20px;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 a,
 a:hover,
