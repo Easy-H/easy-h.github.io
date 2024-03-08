@@ -366,7 +366,6 @@ footer {
     color: #fff;
     height: 80px;
     position : relative;
-    transform : translateY(-100%);
 }
 
 footer h3 {
