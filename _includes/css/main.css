@@ -16,7 +16,10 @@ p {
 p.small {
     font-size: 16px;
 }
-
+li {
+    display: inline-block;
+    padding: 0 10px 0;
+}
 a,
 a:hover,
 a:focus,
