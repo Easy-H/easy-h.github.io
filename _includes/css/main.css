@@ -179,7 +179,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 50px;
+    padding: 30px;
 }
 
 section h2 {
@@ -356,8 +356,16 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: (footer높이);
+}
+
 footer {
     color: #fff;
+    position : relative;
+    transform : translateY(-100%);
 }
 
 footer h3 {
@@ -505,7 +513,7 @@ footer .footer-below {
 }
 
 .post p {
-    margin-bottom: 20px
+    margin-bottom: 40px
 }
 
 .slideshow-container {
