@@ -16,8 +16,8 @@ title: 이지헌의 글
             <a href="{{ post.url }}" class="portfolio-link">
               <h3>{{ post.title }}</h3>
               <ul>
-                {% for item in post.tags %}
-                  {{ item.name }}
+                {% for tag in post.tags %}
+                  {{ tag }}
                 {% endfor %}
               </ul>
               {{ post.tag }}
