@@ -11,12 +11,14 @@ title: 이지헌의 글
         </div>
       </div>
       {% for post in site.categories.blog %}
-      <div class="text-center">
-        <a href="{{ post.url }}" class="portfolio-link">
-          <h3>{{ post.title }}</h3>
-          {{ post.tag }}
-        </a>
-      </div>
+        <div class="blog-row">
+          <div class="text-center">
+            <a href="{{ post.url }}" class="portfolio-link">
+              <h3>{{ post.title }}</h3>
+              {{ post.tag }}
+            </a>
+          </div>
+        </div>
       {% endfor %}
     </div>
   </section>
