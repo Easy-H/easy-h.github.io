@@ -6,6 +6,7 @@
 
 html, body {
     overflow-x: hidden;
+    height: 100%;
 }
 
 p {
@@ -367,7 +368,7 @@ form .row:first-child .floating-label-form-group {
 #wrapper{
     padding: 50px 0 50px 0;
     height: auto;
-    min-height: calc(100% - 80px)
+    min-height: calc(100% - 80px);
 }
 
 footer {
