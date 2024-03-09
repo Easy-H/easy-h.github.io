@@ -12,11 +12,7 @@ html: <video src="https://easy-h.github.io/portfolio/video/crossnumber.mp4" clas
 ---
 # 게임 소개
 ---
-**장르: 퍼즐**
-
-**사용 도구: Unity, Firebase**
-
-**담당: 게임 기획, 프로그래밍**
+**장르: 퍼즐**<br>**사용 도구: Unity, Firebase**<br>**담당: 게임 기획, 프로그래밍**
 
 
 주어진 숫자와 기호를 활용하여 식을 완성하는 퍼즐 게임입니다.

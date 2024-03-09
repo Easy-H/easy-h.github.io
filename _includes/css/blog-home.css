@@ -5,7 +5,7 @@
     border-bottom: 4px dotted #{{ site.color.secondary }};
 }
 
-li .blog-tag {
+li.blog-tag {
     display: inline-block;
     padding: 0 10px;
     margin: 0 5px;
