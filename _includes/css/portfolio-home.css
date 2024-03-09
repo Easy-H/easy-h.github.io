@@ -80,3 +80,18 @@ section .portfolio {
     padding: 5px;
     text-align: center;
 }
+
+.box-modal{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    border: solid;
+    border-color: #{{ site.color.secondary }};
+}
+.img-modal{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
