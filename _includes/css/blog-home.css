@@ -2,11 +2,10 @@
     padding: 10px;
     max-width: 400px;
     margin: auto;
-    border-bottom-style: dotted;
-    border-bottom: 4px #{{ site.color.secondary }};
+    border-bottom: 4px dotted #{{ site.color.secondary }};
 }
 
-.blog-home-tag {
+li .blog-tag {
     display: inline-block;
     padding: 0 10px;
     margin: 0 5px;

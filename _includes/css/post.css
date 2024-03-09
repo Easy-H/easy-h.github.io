@@ -1,0 +1,8 @@
+.post {
+    max-width: 600px;
+    margin: auto;
+}
+
+.post p {
+    margin-bottom: 40px
+}

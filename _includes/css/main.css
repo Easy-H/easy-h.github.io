@@ -302,15 +302,6 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.post {
-    max-width: 600px;
-    margin: auto;
-}
-
-.post p {
-    margin-bottom: 40px
-}
-
 .slideshow-container {
     max-width: 1000px;
     position: relative;

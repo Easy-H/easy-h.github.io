@@ -14,10 +14,11 @@ html: <iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allowfu
 ---
 # 게임 소개
 ---
-#### 장르: 벽돌깨기, 슈팅
-#### 사용 도구: Unity, Firebase
-#### 담당: 게임 기획, 프로그래밍
+**장르: 벽돌깨기, 슈팅**
 
+**사용 도구: Unity, Firebase**
+
+**담당: 게임 기획, 프로그래밍**
 
 벽돌깨기와 슈팅 게임을 융합한 게임입니다.
 
