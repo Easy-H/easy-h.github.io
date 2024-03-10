@@ -1,17 +1,17 @@
 ---
-project-name: Super Pong Brothers
 layout: portfolio
-tag: 개인 프로젝트
-img: superpongbros-source.png
-alt: image-alt
-project-date: September 2022
+tags: [개인 프로젝트]
+thumbnail: superpongbros-source.png
 social:
   - title: github
     url: https://github.com/Easy-H/Break-Out
   - title: itch-io
     url: https://easy-h.itch.io/superpongbros
-html: <iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 ---
+<div>
+    <iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
+</div>
+
 # 게임 소개
 ---
 **장르: 벽돌깨기, 슈팅**<br>**사용 도구: Unity, Firebase**<br>**담당: 게임 기획, 프로그래밍**

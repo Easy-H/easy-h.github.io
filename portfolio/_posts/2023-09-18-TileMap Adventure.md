@@ -1,17 +1,17 @@
 ---
-project-name: TileMap Adventure
 layout: portfolio
-tag: 팀 프로젝트
-img: tilemap-adventure.png
-alt: image-alt
-project-date: September 2023
+tags: [팀 프로젝트]
+thumbnail: tilemap-adventure.png
 social:
   - title: github
     url: https://github.com/B0Light/Project_SWENG
   - title: itch-io
     url: https://sodaxi.itch.io/tile-adventure
-html: <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
 ---
+<div>
+  <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
+</div>
+
 # 게임 소개
 ---
 **장르: 턴제 RPG, 멀티 플레이**<br>**사용 도구: Unity, Photon**<br>**담당: 프로그래밍**

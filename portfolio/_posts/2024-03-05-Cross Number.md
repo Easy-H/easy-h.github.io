@@ -1,15 +1,17 @@
 ---
-project-name: Cross Number
 layout: portfolio
-tag: 개인 프로젝트
-img: crossnumber-source.png
-alt: image-alt
-project-date: June 2022
+tags: [개인 프로젝트]
+thumbnail: crossnumber-source.png
 social:
   - title: github
     url: https://github.com/Easy-H/CrossNumber
-html: <video src="https://easy-h.github.io/portfolio/video/crossnumber.mp4" class="img-responsive img-centered" controls></video>
+  - title: itch-io
+    url: https://easy-h.itch.io/crossnumber
 ---
+<div>
+  <video src="https://easy-h.github.io/portfolio/video/crossnumber.mp4" class="img-responsive img-centered" controls></video>
+</div>
+
 # 게임 소개
 ---
 **장르: 퍼즐**<br>**사용 도구: Unity, Firebase**<br>**담당: 게임 기획, 프로그래밍**

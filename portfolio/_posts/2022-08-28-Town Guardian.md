@@ -1,14 +1,12 @@
 ---
-project-name: Town Guardian
 layout: portfolio
-tag: 참여 프로젝트
-img: townguardian.png
-alt: image-alt
-project-date: June 2022
+tags: [참여 프로젝트]
+thumbnail: townguardian.png
 social:
   - title: github
     url: https://github.com/SodaXI/Town-Gardian
 ---
+![image-alt](/img/portfoliotownguardian.png)
 # 게임 소개
 ---
 **장르: TPS, 로그라이크**<br>**사용 도구: Unity**<br>**담당: 프로그래밍**
