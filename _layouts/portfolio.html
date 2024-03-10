@@ -1,32 +1,14 @@
 ---
-layout: default
+layout: blog
 ---
-<section>
-    <div class="container text-center">
-      <ul>
-        {% for tag in page.tags %}
-        <li class="blog-tag">{{ tag }}</li>
-        {% endfor %}
-      </ul>
-      <h1>{{ page.title }}</h1>
-      <hr class="star-primary">
-      <div class="post">
-        {{ page.content }}
-      </div>
-      <ul class="list-inline item-details">
-        {% if page.client %}
-        <li>Client:
-          <strong>{{ page.client }}</strong>
-        </li>
-        {% endif %}
-      </ul>
-      <ul class="list-inline item-details">
-        {% for network in page.social %}
-        <li>
-          <a href="{{ network.url }}" class="btn-social btn-outline">
-            <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-</section>
+<div class="container text-center">
+  {{ page.content }}
+  <ul class="list-inline item-details">
+    {% for network in page.social %}
+    <li>
+      <a href="{{ network.url }}" class="btn-social btn-outline">
+        <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
