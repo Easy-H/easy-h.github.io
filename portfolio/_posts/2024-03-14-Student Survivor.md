@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 tags: [참여 프로젝트]
-thumbnail: student_survivor.png
+thumbnail: student_survivor.jpg
 social:
   - title: github
     url: https://github.com/asdf-1256/Student_Survivor
