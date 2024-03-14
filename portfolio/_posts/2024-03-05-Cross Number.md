@@ -8,14 +8,11 @@ social:
   - title: itch-io
     url: https://easy-h.itch.io/crossnumber
 ---
-<div>
-  <video src="https://easy-h.github.io/portfolio/video/crossnumber.mp4" class="img-responsive img-centered" controls></video>
-</div>
+<object data="https://itch.io/embed-upload/9375659?color=333333" allowfullscreen="" width="400" height="620"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></object>
 
 # 게임 소개
 ---
 **장르: 퍼즐**<br>**사용 도구: Unity, Firebase**<br>**담당: 게임 기획, 프로그래밍**
-
 
 주어진 숫자와 기호를 활용하여 식을 완성하는 퍼즐 게임입니다.
 

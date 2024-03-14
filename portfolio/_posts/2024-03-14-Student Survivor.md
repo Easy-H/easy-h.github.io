@@ -5,8 +5,11 @@ thumbnail: student_survivor.png
 social:
   - title: github
     url: https://github.com/asdf-1256/Student_Survivor
+  - title: itch-io
+    url: https://rlatldnd1.itch.io/student-survivor
 ---
-![image-alt](/img/portfolio/student_survivor.png)
+<object data="https://itch.io/embed-upload/9246182" allowfullscreen="" width="260" height="580"><a href="https://rlatldnd1.itch.io/student-survivor">Play Student Survivor on itch.io</a></object>
+
 
 # 게임 소개
 ---

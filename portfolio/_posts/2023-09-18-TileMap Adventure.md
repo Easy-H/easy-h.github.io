@@ -9,7 +9,7 @@ social:
     url: https://sodaxi.itch.io/tile-adventure
 ---
 <div>
-  <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
+  <object data="https://itch.io/embed-upload/9259896" allowfullscreen="" width="1080" height="720"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></object>
 </div>
 
 # 게임 소개
