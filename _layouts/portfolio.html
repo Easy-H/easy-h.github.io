@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include about.html %}
 <section>
     <div class="container text-center">
       <ul>
@@ -16,7 +17,7 @@ layout: default
       <ul class="list-inline item-details">
         {% for network in page.social %}
         <li>
-          <a href="{{ network.url }}" class="btn-social btn-outline">
+          <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank">
             <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
         </li>
         {% endfor %}
