@@ -8,9 +8,7 @@ social:
   - title: itch-io
     url: https://easy-h.itch.io/superpongbros
 ---
-<div>
-    <iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
-</div>
+<iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allowfullscreen="" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 
 # 게임 소개
 ---
