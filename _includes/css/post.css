@@ -6,3 +6,13 @@
 .post p {
     margin-bottom: 40px
 }
+
+.post img {
+    width: 100%;
+
+}
+
+.post object {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
