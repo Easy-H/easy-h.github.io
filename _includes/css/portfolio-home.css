@@ -31,7 +31,7 @@ section .portfolio {
     background-color: #{{ site.color.secondary }};
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#portfolio .portfolio-item:hover .portfolio-link .caption {
     opacity: .8;
 }
 
