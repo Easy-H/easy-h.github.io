@@ -8,7 +8,7 @@ social:
   - title: itch-io
     url: https://rlatldnd1.itch.io/student-survivor
 ---
-<iframe frameborder="0" src="https://itch.io/embed-upload/9246182" allowfullscreen="" width="260" height="580"><a href="https://rlatldnd1.itch.io/student-survivor">Play Student Survivor on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/9246182" allow="autoplay; fullscreen" width="260" height="580"><a href="https://rlatldnd1.itch.io/student-survivor">Play Student Survivor on itch.io</a></iframe>
 
 
 # 게임 소개
