@@ -1,3 +1,7 @@
+---
+layout: jogyo
+tags: [알고리즘 강의조교, 질문]
+---
 # Binary Sort/Merge 질문
 
 ## 배경지식
