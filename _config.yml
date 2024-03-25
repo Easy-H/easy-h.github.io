@@ -7,19 +7,17 @@ description: "안녕하세요.<br>
           언제나 읽기 쉬운 코드를 작성하기 위해 노력하고 있습니다.<br>
           제 목표는 'No'라 말하지 않는 프로그래머입니다."
 keywords: "your keywords, separated by commas"
+
+# 참고: https://github.com/Ileriayo/markdown-badges
 skills: 
   - name: "C"
     show: <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
-  - name: "C++"
-    show: <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   - name: "C#"
     show: <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
-  - name: "java"
-    show: <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
+  - name: "C++"
+    show: <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   - name: "unity"
     show: <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white">
-  - name: "unreal"
-    show: <img src="https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white">
 meta_author: Lee Ji-Heon
 
 # Google webmaster tools

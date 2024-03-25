@@ -16,3 +16,8 @@
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
+.post iframe {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
