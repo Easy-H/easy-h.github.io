@@ -9,17 +9,17 @@ description: "안녕하세요.<br>
 keywords: "your keywords, separated by commas"
 skills: 
   - name: "C"
-    show: <p>C</p>
+    show: <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
   - name: "C++"
-    show: <p>C++</p>
+    show: <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   - name: "C#"
-    show: <p>C#</p>
+    show: <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
   - name: "java"
-    show: <i class="fa-brands fa-fw fa-java"></i>
+    show: <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
   - name: "unity"
-    show: <i class="fa-brands fa-fw fa-unity"></i>
+    show: <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white">
   - name: "unreal"
-    show: <p>Unreal</p>
+    show: <img src="https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white">
 meta_author: Lee Ji-Heon
 
 # Google webmaster tools
