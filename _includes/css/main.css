@@ -13,6 +13,7 @@
 }
 
 html, body {
+    font-family: 'EarlyFontDiary';
     overflow-x: hidden;
     height: 100%;
 }
