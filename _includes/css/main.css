@@ -4,6 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /* https://noonnu.cc/font_page/918#google_vignette */
+ @font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 html, body {
     overflow-x: hidden;
     height: 100%;
@@ -57,7 +64,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: 'EarlyFontDiary';
     font-size: 2em;
 }
 
