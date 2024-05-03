@@ -19,10 +19,12 @@ html, body {
 }
 
 p {
+    font-family: 'EarlyFontDiary';
     font-size: 21px;
 }
 
 p.small {
+    font-family: 'EarlyFontDiary';
     font-size: 16px;
 }
 a,
