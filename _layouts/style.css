@@ -1,6 +1,6 @@
-{% include css/main.css %}
 
 {% include css/bootstrap.min.css %}
+{% include css/main.css %}
 
 {% include css/blog-home.css %}
 {% include css/portfolio-home.css %}
