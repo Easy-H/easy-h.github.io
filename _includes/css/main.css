@@ -91,7 +91,7 @@ hr.star-primary:after {
     color: #{{ site.color.secondary }};
 }
 
-section.h2:before {
+section h2:before {
     display: block;
     width: 250px;
     height: 5px;
@@ -104,7 +104,7 @@ section.h2:before {
     background: #{{ site.color.secondary }};
 }
 
-section.h2:after {
+section h2:after {
     display: block;
     height: 50px;
     width: 50px;
