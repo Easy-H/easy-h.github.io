@@ -91,6 +91,7 @@ hr.star-primary:after {
     color: #{{ site.color.secondary }};
 }
 
+
 section h2:before {
     display: block;
     width: 250px;
@@ -111,7 +112,7 @@ section h2:after {
     position: absolute;
     top: 50px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -25px;
     content: "\f005";
     font-family: 'FontAwesome';
     line-height: 50px;
@@ -174,6 +175,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    margin-bottom: 60px;
 }
 
 section.success {
