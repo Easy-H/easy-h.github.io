@@ -13,11 +13,13 @@
 }
 
 .post object {
+    display: block;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
 .post iframe {
+    display: block;
     margin-left: 50%;
     transform: translateX(-50%);
 }
