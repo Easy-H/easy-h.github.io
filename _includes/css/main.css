@@ -93,12 +93,14 @@ hr.star-primary:after {
 }
 
 
-section h1:before, section h2:before, section h3:before {
+section h1:before,
+section h2:before,
+section h3:before {
     display: block;
     width: 250px;
     height: 5px;
     position: absolute;
-    top: 125%;
+    top: 150%;
     left: 50%;
     margin-left: -125px;
     content: " ";
@@ -106,7 +108,9 @@ section h1:before, section h2:before, section h3:before {
     background: #{{ site.color.secondary }};
 }
 
-section h1:after, section h2:after, section h3:after {
+section h1:after,
+section h2:after,
+section h3:after {
     display: block;
     height: 50px;
     width: 50px;
