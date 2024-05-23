@@ -11,7 +11,6 @@ social:
 <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" width="1920" height="1080"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
 
 # 게임 소개
----
 **장르: 턴제 RPG, 멀티 플레이**<br>**사용 도구: Unity, Photon**<br>**담당: 프로그래밍**
 
 육각 타일 기반의 멀티플레이 턴제 RPG 게임입니다.
