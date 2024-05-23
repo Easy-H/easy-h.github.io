@@ -43,6 +43,7 @@ h6 {
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     text-align: center;
+    position: relative;
 }
 
 hr,
@@ -92,7 +93,7 @@ hr.star-primary:after {
 }
 
 
-section h2:before {
+section h1:before, section h2:before, section h3:before {
     display: block;
     width: 250px;
     height: 5px;
@@ -105,7 +106,7 @@ section h2:before {
     background: #{{ site.color.secondary }};
 }
 
-section h2:after {
+section h1:after, section h2:after, section h3:after {
     display: block;
     height: 50px;
     width: 50px;
@@ -172,7 +173,7 @@ section {
     padding: 30px;
 }
 
-section h2 {
+section h1, section h2, section h3 {
     margin: 0;
     font-size: 3em;
     margin-bottom: 60px;
