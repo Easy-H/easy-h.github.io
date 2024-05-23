@@ -121,7 +121,7 @@ section h3:after {
     content: "\f005";
     font-family: 'FontAwesome';
     line-height: 50px;
-    font-size: .7em;
+    font-size: 25px;
     background-color: white;
 }
 
