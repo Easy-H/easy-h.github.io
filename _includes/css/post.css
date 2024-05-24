@@ -36,18 +36,18 @@ li > ul {
 
 }
 .post h1:before, .post h2:before, .post h3:before {
-    content: "[ ";
+    content: "\f053     ";
     display: initial;
     margin-left: initial;
     position: initial;
     font-size: 100%;
     font-weight: 600;
     background: initial;
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome'
 
 }
 .post h1:after, .post h2:after, .post h3:after {
-    content: " ]";
+    content: " \f054";
     display: initial;
     margin-left: initial;
     position: initial;
