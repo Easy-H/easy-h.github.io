@@ -30,6 +30,7 @@
 .post ul {
     font-size: 20px;
     list-style-type: square;
+    list-style-position: inside;
 }
 
 .post li > ul {
