@@ -37,9 +37,15 @@ li > ul {
 }
 .post h1:before, .post h2:before, .post h3:before {
     content: "[ ";
+    display: initial;
+    margin-left: initial;
+    position: initial;
 
 }
 .post h1:after, .post h2:after, .post h3:after {
     content: " ]";
+    display: initial;
+    margin-left: initial;
+    position: initial;
 
 }
