@@ -11,7 +11,9 @@ social:
 <iframe frameborder="0" src="https://itch.io/embed-upload/9382981" allow="autoplay; fullscreen" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 
 # 게임 소개
-**장르: 벽돌깨기, 슈팅**<br>**사용 도구: Unity, Firebase**<br>**담당: 게임 기획, 프로그래밍**
+- **장르: 벽돌깨기, 슈팅**
+- **사용 도구: Unity, Firebase**
+- **담당: 게임 기획, 프로그래밍**
 
 벽돌깨기와 슈팅 게임을 융합한 게임입니다.
 
