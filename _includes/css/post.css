@@ -15,16 +15,31 @@
 .post object {
     display: block;
     margin-left: 50%;
+    margin-bottom: 20px;
     transform: translateX(-50%);
 }
 
 .post iframe {
     display: block;
     margin-left: 50%;
+    margin-bottom: 20px;
     transform: translateX(-50%);
 }
 
 li > ul {
     margin-left: 30px;
+    font-size: 20px;
+}
+
+.post h1, .post h2, .post h3 {
+    margin: 10px, auto;
+
+}
+.post h1:before, .post h2:before, .post h3:before {
+    content: "[ ";
+
+}
+.post h1:after, .post h2:after, .post h3:after {
+    content: " ]";
 
 }
