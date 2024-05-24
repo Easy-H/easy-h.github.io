@@ -40,6 +40,9 @@ li > ul {
     display: initial;
     margin-left: initial;
     position: initial;
+    font-size: 100%;
+    font-weight: 600;
+    background: initial;
 
 }
 .post h1:after, .post h2:after, .post h3:after {
@@ -47,5 +50,7 @@ li > ul {
     display: initial;
     margin-left: initial;
     position: initial;
+    font-size: 100%;
+    font-weight: 600;
 
 }
