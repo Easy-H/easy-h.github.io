@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 tags: [팀 프로젝트]
-thumbnail: HappyPlanet.jpg
+thumbnail: HappyPlanet.png
 social:
   - title: github
     url: https://github.com/team-prepper/happy-planet
