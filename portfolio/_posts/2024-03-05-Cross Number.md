@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 tags: [개인 프로젝트]
-thumbnail: crossnumber-source.png
+thumbnail: CrossNumber.png
 social:
   - title: github
     url: https://github.com/Easy-H/CrossNumber

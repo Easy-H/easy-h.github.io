@@ -1,10 +1,10 @@
 ---
 layout: portfolio
 tags: [팀 프로젝트]
-thumbnail: tilemap-adventure.png
+thumbnail: TilemapAdventure.png
 social:
   - title: github
-    url: https://github.com/B0Light/Project_SWENG
+    url: https://github.com/Team-Prepper/Project_SWENG
   - title: itch-io
     url: https://sodaxi.itch.io/tile-adventure
 ---

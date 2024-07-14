@@ -1,13 +1,13 @@
 ---
 layout: portfolio
 tags: [참여 프로젝트]
-thumbnail: townguardian.png
+thumbnail: TownGuardian.png
 social:
   - title: github
     url: https://github.com/SodaXI/Town-Gardian
 ---
 
-![image-alt](/img/portfolio/townguardian.png)
+![image-alt](/img/portfolio/TownGuardian.png)
 
 # 게임 소개
 - **장르: TPS, 로그라이크**

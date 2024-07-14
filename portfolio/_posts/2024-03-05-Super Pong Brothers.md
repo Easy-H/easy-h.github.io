@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 tags: [개인 프로젝트]
-thumbnail: superpongbros-source.png
+thumbnail: SuperPongBros.png
 social:
   - title: github
     url: https://github.com/Easy-H/Break-Out
