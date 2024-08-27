@@ -9,7 +9,7 @@ social:
     url: https://easy-h.itch.io/happy-planet
 ---
 # 게임 플레이
-<iframe frameborder="0" src="https://itch.io/embed-upload/10901797?color=333333" allowfullscreen="" width="600" height="980"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/11317408?color=333333" allowfullscreen="" width="600" height="980"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
 
 # 게임 소개
 - **장르: 시뮬레이션**
