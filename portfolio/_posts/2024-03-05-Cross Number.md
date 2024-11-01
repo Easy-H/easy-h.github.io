@@ -9,7 +9,7 @@ social:
     url: https://easy-h.itch.io/crossnumber
 ---
 # 게임 플레이
-<iframe frameborder="0" src="https://itch.io/embed-upload/11872217?color=333333" allow="autoplay; fullscreen" width="400" height="620"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/11880307?color=333333" allow="autoplay; fullscreen" width="400" height="620"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></iframe>
 
 # 게임 소개
 - **장르: 퍼즐**
