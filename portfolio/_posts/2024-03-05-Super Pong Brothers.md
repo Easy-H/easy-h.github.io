@@ -9,7 +9,7 @@ social:
     url: https://easy-h.itch.io/superpongbros
 ---
 # 게임 플레이
-<iframe frameborder="0" src="https://itch.io/embed-upload/11887760?color=333333" allow="autoplay; fullscreen" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/11887825?color=333333" allow="autoplay; fullscreen" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 
 # 게임 소개
 - **장르: 벽돌깨기, 슈팅**
