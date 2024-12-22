@@ -78,11 +78,13 @@
 .post .left {
     float: left;
     max-width: 500px;
+    margin: 0 auto;
 }
 
 .post .right {
     float: right;
     max-width: 500px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {

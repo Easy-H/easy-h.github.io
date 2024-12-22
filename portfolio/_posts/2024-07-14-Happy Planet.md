@@ -8,11 +8,11 @@ social:
   - title: itch-io
     url: https://easy-h.itch.io/happy-planet
 ---
-<div>
+<div markdown="1">
 # 게임 플레이
 <iframe frameborder="0" src="https://itch.io/embed-upload/12255258?color=333333" allowfullscreen="" width="600" height="980"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
 </div>
-<div>
+<div markdown="1">
 # 게임 소개
 - **장르: 시뮬레이션**
 - **사용 도구: Unity, Firebase**
