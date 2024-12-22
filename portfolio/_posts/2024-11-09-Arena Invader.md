@@ -9,7 +9,6 @@ social:
     url: https://easy-h.itch.io/arena-invader
 ---
 <div markdown="1" class="left text-left">
-# 게임 플레이
 <iframe frameborder="0" src="https://itch.io/embed/3098128" width="552" height="167"><a href="https://easy-h.itch.io/arena-invader">Arena Invader by Easy-H</a></iframe>
 </div>
 
