@@ -2,10 +2,13 @@
 layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: TilemapAdventure.png
+summary: 턴제 RPG
 social:
   - title: github
+    info: Code
     url: https://github.com/Team-Prepper/Project_SWENG
   - title: itch-io
+    info: Play
     url: https://sodaxi.itch.io/tile-adventure
 ---
 <div markdown="1" class="right text-left">

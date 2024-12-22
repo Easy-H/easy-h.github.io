@@ -2,10 +2,13 @@
 layout: portfolio
 tags: [개인 프로젝트]
 thumbnail: SuperPongBros.png
+summary: 벽돌깨기, 슈팅
 social:
   - title: github
+    info: Code
     url: https://github.com/Easy-H/Break-Out
   - title: itch-io
+    info: Play
     url: https://easy-h.itch.io/superpongbros
 ---
 <div markdown="1" class="right text-left">

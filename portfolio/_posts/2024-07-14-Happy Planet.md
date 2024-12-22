@@ -2,10 +2,13 @@
 layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: HappyPlanet.png
+summary: 시뮬레이션 게임
 social:
   - title: github
+    info: Code
     url: https://github.com/team-prepper/happy-planet
   - title: itch-io
+    info: Play
     url: https://easy-h.itch.io/happy-planet
 ---
 <div markdown="1" class="right text-left">

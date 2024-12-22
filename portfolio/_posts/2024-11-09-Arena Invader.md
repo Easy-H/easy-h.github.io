@@ -2,8 +2,10 @@
 layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: AI.png
+summary: 보드게임
 social:
   - title: itch-io
+    info: Play
     url: https://easy-h.itch.io/arena-invader
 ---
 <div markdown="1" class="right text-left">
