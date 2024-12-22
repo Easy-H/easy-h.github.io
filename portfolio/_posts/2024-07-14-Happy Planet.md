@@ -22,5 +22,5 @@ social:
 </div>
 
 <div markdown="1" class="left">
-<iframe frameborder="0" src="https://itch.io/embed-upload/12255258?color=333333" allowfullscreen="" width="300" height="500"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/12321361?color=333333" allowfullscreen="" width="300" height="500"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
 </div>

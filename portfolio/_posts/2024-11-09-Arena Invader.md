@@ -3,8 +3,6 @@ layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: HappyPlanet.png
 social:
-  - title: github
-    url: https://github.com/team-prepper/happy-planet
   - title: itch-io
     url: https://easy-h.itch.io/arena-invader
 ---
@@ -30,5 +28,5 @@ AOS를 윷놀이와 결합하여 해석한 게임입니다.
 </div>
 
 <div markdown="1" class="left text-left">
-<iframe frameborder="0" src="https://itch.io/embed-upload/12321080?color=333333" allowfullscreen="" width="300" height="200"><a href="https://easy-h.itch.io/arena-invader">Play Arena Invader on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/12321411?color=333333" allowfullscreen="" width="300" height="200"><a href="https://easy-h.itch.io/arena-invader">Play Arena Invader on itch.io</a></iframe>
 </div>
