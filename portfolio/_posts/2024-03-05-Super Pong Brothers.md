@@ -8,8 +8,7 @@ social:
   - title: itch-io
     url: https://easy-h.itch.io/superpongbros
 ---
-<div markdown="1" class="left text-left">
-# 게임 소개
+<div markdown="1" class="right text-left">
 - **장르: 벽돌깨기, 슈팅**
 - **사용 도구: Unity, Firebase**
 - **담당: 게임 기획, 프로그래밍**

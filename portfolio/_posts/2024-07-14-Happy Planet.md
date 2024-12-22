@@ -9,7 +9,6 @@ social:
     url: https://easy-h.itch.io/happy-planet
 ---
 <div markdown="1" class="right text-left">
-# 게임 소개
 - **장르: 시뮬레이션**
 - **사용 도구: Unity, Firebase**
 - **담당: 게임 기획, 프로그래밍**

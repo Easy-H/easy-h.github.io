@@ -8,8 +8,7 @@ social:
   - title: itch-io
     url: https://easy-h.itch.io/crossnumber
 ---
-<div markdown="1" class="left text-left">
-# 게임 소개
+<div markdown="1" class="right text-left">
 - **장르: 퍼즐**
 - **사용 도구: Unity, Firebase**
 - **담당: 게임 기획, 프로그래밍**

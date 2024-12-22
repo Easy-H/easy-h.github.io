@@ -8,8 +8,7 @@ social:
   - title: itch-io
     url: https://sodaxi.itch.io/tile-adventure
 ---
-<div markdown="1" class="left text-left">
-# 게임 소개
+<div markdown="1" class="right text-left">
 - **장르: 턴제 RPG, 멀티 플레이**
 - **사용 도구: Unity, Photon**
 - **담당: 프로그래밍**
