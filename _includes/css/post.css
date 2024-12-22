@@ -1,5 +1,4 @@
 .post {
-    max-width: 600px;
     margin: auto;
 }
 
@@ -51,10 +50,10 @@
     
 }
 
-.post h1, .post h2, .post h3 {
-    margin: 10px auto;
-
+.post h1 {
+    font-size: 32px;
 }
+
 .post h1:before, .post h2:before, .post h3:before {
     content: "\f053     ";
     display: initial;
@@ -77,21 +76,27 @@
 }
 .post .left {
     float: left;
-    max-width: 500px;
+    padding: 0 25px;
+    width: 350px;
     margin: 0 auto;
 }
 
 .post .right {
     float: right;
-    max-width: 500px;
+    padding: 0 25px;
+    width: 350px;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
     .post .left{
+        width: auto;
+        max-width: 400px;
         float: none;
     }
     .post .right{
+        width: auto;
+        max-width: 400px;
         float:none;
     }
 }

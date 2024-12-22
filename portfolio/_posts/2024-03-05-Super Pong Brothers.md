@@ -8,9 +8,11 @@ social:
   - title: itch-io
     url: https://easy-h.itch.io/superpongbros
 ---
-# 게임 플레이
+<div markdown="1" class="right text-left">
 <iframe frameborder="0" src="https://itch.io/embed-upload/11887825?color=333333" allow="autoplay; fullscreen" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
+</div>
 
+<div markdown="1" class="right text-left">
 # 게임 소개
 - **장르: 벽돌깨기, 슈팅**
 - **사용 도구: Unity, Firebase**
@@ -21,3 +23,4 @@ social:
 총알을 쏘는 적을 공으로 맞추어 쓰러트려야 합니다. 모든 공을 떨어트리면 피해를 입으니 최대한 떨어트리지 않으며 적을 해치워야 합니다.
 
 데미지를 받을 때 마다 공을 하나 더 생성하여 공을 떨어트림에 부담을 줄이고, 피해도 전략적으로 입을 수 있도록 구성하였습니다.
+</div>
