@@ -8,11 +8,7 @@ social:
   - title: itch-io
     url: https://sodaxi.itch.io/tile-adventure
 ---
-<div markdown="1" class="right text-left">
-<iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" width="1920" height="1080"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
-</div>
-
-<div markdown="1" class="right text-left">
+<div markdown="1" class="left text-left">
 # 게임 소개
 - **장르: 턴제 RPG, 멀티 플레이**
 - **사용 도구: Unity, Photon**
@@ -23,4 +19,8 @@ social:
 턴을 시작할 때 주사위를 굴려 포인트를 얻은 뒤, 얻은 포인트를 활용하여 이동, 공격을 수행합니다.
 
 UI 작업, 코드 리팩토링, 언어 변경 기능과 일부 멀티 플레이 작업을 담당하였으며, 맵 제작에 도움을 주는 유니티 에디터를 제작하였습니다.
+</div>
+
+<div markdown="1" class="left text-left">
+<iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" width="1920" height="1080"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
 </div>
