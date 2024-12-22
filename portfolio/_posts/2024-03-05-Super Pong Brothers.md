@@ -22,5 +22,5 @@ social:
 </div>
 
 <div markdown="1" class="left text-left">
-<iframe frameborder="0" src="https://itch.io/embed-upload/11887825?color=333333" allow="autoplay; fullscreen" width="260" height="580"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/11887825?color=333333" allow="autoplay; fullscreen" width="220" height="500"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 </div>

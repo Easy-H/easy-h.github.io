@@ -1,10 +1,12 @@
 .post {
     margin: auto;
+    max-width: 700px;
 }
 
 .post p {
     margin-bottom: 40px;
     word-break: keep-all;
+    font-size: 16px;
 }
 
 .post img {
@@ -27,7 +29,7 @@
 }
 
 .post ul {
-    font-size: 20px;
+    font-size: 16px;
     list-style-type: square;
     list-style-position: inside;
 }
@@ -39,7 +41,7 @@
 .post ul > li::marker {
     content: "\f005\00a0\00a0";
     font-family: 'FontAwesome';
-    font-size: 15px;
+    font-size: 12px;
 
 }
 
@@ -52,6 +54,7 @@
 
 .post h1 {
     font-size: 32px;
+    margin: 10px 0;
 }
 
 .post h1:before, .post h2:before, .post h3:before {

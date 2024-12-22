@@ -30,5 +30,5 @@ AOS를 윷놀이와 결합하여 해석한 게임입니다.
 </div>
 
 <div markdown="1" class="left text-left">
-<iframe frameborder="0" src="https://itch.io/embed/3098128" width="552" height="167"><a href="https://easy-h.itch.io/arena-invader">Arena Invader by Easy-H</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/11949014?color=333333" allowfullscreen="" width="980" height="640"><a href="https://easy-h.itch.io/arena-invader">Play Arena Invader on itch.io</a></iframe>
 </div>

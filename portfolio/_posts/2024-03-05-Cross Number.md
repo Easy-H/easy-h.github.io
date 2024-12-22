@@ -22,5 +22,5 @@ social:
 </div>
 
 <div markdown="1" class="left text-left">
-<iframe frameborder="0" src="https://itch.io/embed-upload/11880307?color=333333" allow="autoplay; fullscreen" width="400" height="620"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/11880307?color=333333" allow="autoplay; fullscreen" width="300" height="470"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></iframe>
 </div>
