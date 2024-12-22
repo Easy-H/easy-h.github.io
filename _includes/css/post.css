@@ -75,3 +75,20 @@
     font-weight: 600;
 
 }
+
+@media screen and (max-width: 767px) {
+    .post .left{
+        float: none;
+    }
+    .post .right{
+        float:none;
+    }
+}
+
+.post .left {
+    float: left;
+}
+
+.post .right {
+    float: right;
+}
