@@ -57,6 +57,11 @@
     margin: 10px 0;
 }
 
+.post h3 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
 .post h1:before, .post h2:before, .post h3:before {
     content: "\f053     ";
     display: initial;
@@ -80,14 +85,14 @@
 .post .left {
     float: left;
     padding: 0 25px;
-    width: 350px;
+    width: 50%;
     margin: 0 auto;
 }
 
 .post .right {
     float: right;
     padding: 0 25px;
-    width: 350px;
+    width: 50%;
     margin: 0 auto;
 }
 
