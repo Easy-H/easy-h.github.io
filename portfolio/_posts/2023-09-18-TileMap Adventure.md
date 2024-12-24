@@ -2,7 +2,7 @@
 layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: TilemapAdventure.png
-summary: 턴제 RPG
+summary: "🔧 Unity | Photon&#10;🌟 턴제 RPG&#10;🎮 상태: 완료"
 social:
   - title: github
     info: Code

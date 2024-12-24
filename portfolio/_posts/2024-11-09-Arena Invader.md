@@ -2,7 +2,7 @@
 layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: AI.png
-summary: 보드게임
+summary: "🔧 Unity&#10;🌟 보드 게임&#10;🎮 상태: 완료&#10;🏆 경북 게임잼 2024 2등"
 social:
   - title: itch-io
     info: Play

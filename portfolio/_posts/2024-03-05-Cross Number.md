@@ -2,7 +2,7 @@
 layout: portfolio
 tags: [개인 프로젝트]
 thumbnail: CrossNumber.png
-summary: 퍼즐
+summary: "🔧 Unity | Firebase&#10;🌟 퍼즐&#10;🎮 상태: 완료"
 social:
   - title: github
     info: Code

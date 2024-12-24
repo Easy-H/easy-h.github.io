@@ -2,7 +2,7 @@
 layout: portfolio
 tags: [팀 프로젝트]
 thumbnail: HappyPlanet.png
-summary: 시뮬레이션 게임
+summary: "🔧 Unity | Firebase&#10;🌟 시뮬레이션 게임&#10;🎮 상태: 완료"
 social:
   - title: github
     info: Code
