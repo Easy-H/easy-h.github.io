@@ -58,7 +58,7 @@ title: 이지헌의 활동
   </div>
 </section>
 
-<section markdown="1">
+<section markdown="1" style="display:none;">
 ## 교외 활동
 🏅 2022년 경북 게임인 해커톤 4등(팀: IXXP)
 

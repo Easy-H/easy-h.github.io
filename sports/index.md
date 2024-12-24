@@ -14,7 +14,7 @@ title: 이지헌의 운동
     <h3>경력</h3>
     <p>2024 희성전자 토요리그 B 준우승(뉴멘 몬스터즈)</p>
 </div>
-<div style="display:none;"class="text-center" markdown="1">
+<div style="display:none;" class="text-center" markdown="1">
 # 야구
 - 포지션: 투수, 3루수, 2루수
 - 투/타: 우언좌타
