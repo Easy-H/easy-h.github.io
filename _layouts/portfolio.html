@@ -15,9 +15,15 @@ layout: default
     </div>
     <div class="container text-center">
       <ul class="list-inline item-details">
+        <li>
+          <a href="/portfolio/" class="btn-social btn-outline" title="Home">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </a>
+        </li>
         {% for network in page.social %}
         <li>
-          <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.info }}"target="_blank">
+          <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.info }}" target="_blank">
             <i class="fa-brands fa-fw fa-{{ network.title }}"></i>
             {{ network.info }}
           </a>
