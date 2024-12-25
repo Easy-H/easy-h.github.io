@@ -26,12 +26,9 @@ UI 작업, 코드 리팩토링, 언어 변경 기능과 일부 멀티 플레이 
 <div markdown="1" class="left text-left" style="height:300px">
 <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" style="
       width: 1980px;
-      height: 1080px;
-      transform: scale(0.1515) translateX(-50%); /* 300/1080 */
+      height: 1200px;
+      transform: scale(0.1515) translateX(-50%); /* 300/1980 */
       transform-origin: top left;
-      /* position: absolute; */
-      /* top: 0; */
-      /* left: 0; */
       border: none;
     "><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
 </div>
