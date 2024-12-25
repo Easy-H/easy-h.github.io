@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>강두흔 타격폼 분석.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 300px;
+	max-height: 800px;
+	display:block;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%EA%B0%95%EB%91%90%ED%9D%94-%ED%83%80%EA%B2%A9%ED%8F%BC-%EB%AC%B8%EC%A0%9C%EC%A0%90-%EB%B6%84%EC%84%9D%EA%B3%BC-%EA%B0%9C%EC%84%A0-%EB%B0%A9%EC%95%88">강두흔 타격폼 문제점 분석과 개선 방안</h1>
+<h2 id="%EB%AC%B8%EC%A0%9C%EC%A0%90-%EB%B6%84%EC%84%9D">문제점 분석</h2>
+<ul>
+<li>좋은 스윙(인-아웃 스윙)
+<ul>
+<li>배팅 순간 전까지는 작게 나오다가 배팅 후에는 크게 만들어지는 스윙</li>
+</ul>
+</li>
+<li>인-아웃 스윙은 왜 좋은가?
+<ul>
+<li>스윙이 작을 때
+<ul>
+<li>장점: 작을수록 컨택이 쉬워짐
+<ul>
+<li>ex) 배트를 짧게 잡고 침</li>
+<li>도구를 컨트롤하는 범위가 몸에 가까워지기 때문</li>
+</ul>
+</li>
+<li>단점: 장타가 나오지 않음
+<ul>
+<li>같은 크기로 회전했을 때 멀리있을수록 속도가 빨라짐(원심력)</li>
+</ul>
+</li>
+<li>김지찬이 스윙이 작은 대표적인 선수(컨택 good, 파워 bad)</li>
+</ul>
+</li>
+<li>스윙이 클 때
+<ul>
+<li>스윙이 작을때와 장점, 단점이 반대(컨택 bad, 파워 good)</li>
+</ul>
+</li>
+<li>컨택은 공을 치기 전에 그 위치로 이동하는 영역
+<ul>
+<li>스윙이 작게 나오면 공을 치기 전에 그 위치로 더 정확히 이동 가능</li>
+</ul>
+</li>
+<li>파워는 공을 칠 때 그 힘을 전달하는 영역
+<ul>
+<li>히팅 후 스윙을 크게 가져가면 힘을 크게 전달할 수 있음</li>
+</ul>
+</li>
+<li>히팅 전까지 스윙을 작게 가져가다가(컨택 good) 히팅 순간 크게 나온다면(파워 good) 장점만을 취할 수 있음</li>
+</ul>
+</li>
+<li>현재 문제
+<ul>
+<li>공을 치기 전에 스윙이 큼</li>
+<li>즉 인-아웃 스윙이 아닌 아웃-아웃 스윙인 것 처럼 보임
+<ul>
+<li>아웃으로 나오기 때문에 컨택에 문제가 있을 것으로 추측</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="%EC%99%9C-%EC%95%84%EC%9B%83-%EC%95%84%EC%9B%83%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%98%AC%EA%B9%8C">왜 아웃-아웃으로 나올까?</h2>
+<ul>
+<li>손목을 빨리 사용함
+<ul>
+<li>손목은 허리, 팔을 사용해서 만든 배트의 궤도가 예상과 다를 때(변화구 등) 대처할 수 있는 수단</li>
+<li>손목을 최대한 마지막에 사용하는 것이 좋음</li>
+<li>다만 프로가 아닌 이상 이게 큰 문제라 지적하긴 힘들다 생각함
+<ul>
+<li>나도 비슷한 타이밍에 손목을 사용함</li>
+<li>아마추어 수준에서는 큰 문제가 아니라고 생각함</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>팔이 몸에서 떨어짐
+<img src="./팔이_몸에서_떨어짐.png" alt="image">
+<ul>
+<li>팔이 몸에서 떨어지면서 떨어진 만큼 스윙이 커짐</li>
+<li>바깥쪽 공을 칠 때는 팔이 떨어질 수 밖에 없긴 함</li>
+<li>다만 그렇지 않은 공에도 팔이 떨어져서 치는 것은 문제</li>
+<li>연습 때 팔을 몸에 붙일 때는 돌아나오는 문제가 없음
+<img src="./연습_때_타격폼.png" alt="image"></li>
+<li>팔이 몸에서 떨어지는 것이 큰 문제로 보임</li>
+</ul>
+</li>
+</ul>
+<h2 id="%ED%8C%94%EC%9D%B4-%EB%AA%B8%EC%97%90%EC%84%9C-%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EC%B6%94%EC%B8%A1">팔이 몸에서 떨어지는 이유 추측</h2>
+<ul>
+<li>선구 문제?
+<ul>
+<li>실제 공이 도착하는 위치보다 바깥쪽에 도착한다 생각하는 듯</li>
+<li>그래서인지 공이 스윗 스팟보다 안쪽에 맞음
+<img src="./스윗_스팟보다_안쪽에_맞는_공.png" alt="image"></li>
+</ul>
+</li>
+<li>타격 위치 문제?
+<ul>
+<li>홈 플레이트에서 많이 떨어져서 타격하기 때문에 스트라이크존을 커버하기 위해서는 먼 곳을 치는 문제 발생하는 듯</li>
+<li>연습 때 타격폼을 보면 스윗 스팟은 몸쪽 공을 치는 위치인 것을 볼 수 있음
+<ol>
+<li>좋은 타격폼으로 치는 스윗 스팟보다 더 먼 곳을 치기 위해 팔이 떨어짐</li>
+<li>그러면서 컨트롤이 힘들어저 스윗 스팟보다 안쪽으로 히팅하는 문제 발생?</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>타이밍 문제?
+<ul>
+<li>같은 구속일 때 몸쪽 공은 바깥쪽 공 보다 타이밍을 빠르게 잡아야 함
+<ul>
+<li>유인구 던지다 몸쪽 빠른공 삼진은 이런 걸 노리는 볼배합</li>
+</ul>
+</li>
+<li>타이밍이 늦다 보니 바깥쪽 공을 치는 타격처럼 스윙을 하여 타이밍을 보완하다가 팔이 떨어졌을 가능성 있음</li>
+</ul>
+</li>
+<li>힘을 쓰려고 하다보니?
+<ul>
+<li>인-아웃은 아무래도 아웃-아웃보다 원심력을 적게 사용하긴 함
+<ul>
+<li>인-아웃 전환 중에 맞는 경우가 대다수라 최대한의 스윙 크기가 나오지는 않음</li>
+</ul>
+</li>
+<li>타구질을 좋게 하기 위한 시도 중 배트가 돌았을 때 결과가 더 좋아서 그 느낌처럼 치다가 팔이 떨어졌을 가능성 있음</li>
+</ul>
+</li>
+</ul>
+<h2 id="%EA%B0%9C%EC%84%A0-%EB%B0%A9%EC%95%88-%EC%B6%94%EC%B2%9C">개선 방안 추천</h2>
+<ul>
+<li>선구, 타이밍 문제는 경험 이슈라 따로 개선 방안이 없음</li>
+<li>타격 위치를 플레이트쪽으로 좀 더 붙기
+<ul>
+<li>아마추어 특징상 붙어있는 타자에게 스트라이크 던지기 더 힘듬
+<ul>
+<li>볼넷으로 출루할 확률 Up</li>
+<li>힛 바이 피치로 출루할 확률 Up</li>
+</ul>
+</li>
+<li>몸쪽 공을 치려는 타격을 하려다 보면 자연스럽게 인-아웃으로 나오리라 생각함</li>
+<li>다만
+<ul>
+<li>몸쪽공에 도통 타이밍을 못맞출 가능성도 있음</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>힘빼기
+<ul>
+<li>사회인이고 알뱃이니까 힘써서 타격 안해도 안타 나온다 생각하면 좋을 듯
+<ul>
+<li>알뱃이니까 멀리 잘 날아감</li>
+<li>일단 맞추면 아마추어 실력상 아무튼 살 가능성(실책 등)이 더 높음</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</body>
+</html>
