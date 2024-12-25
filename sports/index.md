@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 이지헌의 운동
+title: 운동
 ---
 <section id="sports" markdown="1">
 <div class="text-center">
@@ -14,8 +14,11 @@ title: 이지헌의 운동
     <h3>경력</h3>
     <p>2024 희성전자 토요리그 B 준우승(뉴멘 몬스터즈)</p>
 </div>
-<div style="display:none;" class="text-center" markdown="1">
+<div class="text-center" markdown="1">
+<details markdown="1">
+<summary markdown="1">
 # 야구
+</summary>
 - 포지션: 투수, 3루수, 2루수
 - 투/타: 우언좌타
 - 소속
@@ -23,6 +26,7 @@ title: 이지헌의 운동
     - 로얄 패밀리(2024/10~)
 - 경력
     - 2024 희성전자 토요리그 B 준우승(뉴멘 몬스터즈)
-# 태권도 
+</details>
+# 태권도 4품
 </div>
 </section>

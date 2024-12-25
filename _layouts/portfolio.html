@@ -18,7 +18,9 @@ layout: default
         {% for network in page.social %}
         <li>
           <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.info }}"target="_blank">
-            <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+            <i class="fa-brands fa-fw fa-{{ network.title }}"></i>
+            {{ network.info }}
+          </a>
         </li>
         {% endfor %}
       </ul>
