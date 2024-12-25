@@ -14,7 +14,7 @@ title: 운동
     <h3>경력</h3>
     <p>2024 희성전자 토요리그 B 준우승(뉴멘 몬스터즈)</p>
 </div>
-<div class="text-center" markdown="1">
+<div style="display:none;"class="text-center" markdown="1">
 <details markdown="1">
 <summary markdown="1">
 # 야구
