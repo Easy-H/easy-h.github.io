@@ -23,7 +23,7 @@ social:
 UI 작업, 코드 리팩토링, 언어 변경 기능과 일부 멀티 플레이 작업을 담당하였으며, 맵 제작에 도움을 주는 유니티 에디터를 제작하였습니다.
 </div>
 
-<div markdown="1" class="left text-left" style="height:500px">
+<div markdown="1" class="left text-left" style="height:300px">
 <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" style="
       width: 1980px;
       height: 1080px;
