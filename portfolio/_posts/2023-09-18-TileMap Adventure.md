@@ -24,5 +24,5 @@ UI 작업, 코드 리팩토링, 언어 변경 기능과 일부 멀티 플레이 
 </div>
 
 <div markdown="1" class="left text-left">
-<iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" width="1920" height="1080"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" width="300" height="200"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
 </div>
