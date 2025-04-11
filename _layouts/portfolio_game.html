@@ -14,6 +14,9 @@ layout: default
         {{ page.iframe }}
       </div>
       <div markdown="1" class="right text-left">
+        {% capture content %}{{ page.content | markdownify }}{% endcapture %}
+        {% assign cards = content | split: '<!-- card:' %}
+        
         <div id="carousel" class="splide">
           <div class="splide__track">
             <ul class="splide__list">
