@@ -107,6 +107,12 @@
 
 .card-content h2 {
     margin-bottom: 25px;
+    font-size: 19px;
+}
+
+.card-content h3 {
+    font-size: 19px;
+    text-align: left;
 }
 
 .card-content h3::before {
