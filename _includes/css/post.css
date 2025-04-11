@@ -92,13 +92,9 @@
 .post .right {
     float: right;
     padding: 0 25px;
-    margin-bottom: 75px;
+    padding-bottom: 75px;
     width: 50%;
     margin: 0 auto;
-}
-
-ul.splide__list > li {
-    content: ""
 }
 
 .card-content h2::before {
@@ -133,8 +129,8 @@ ul.splide__list > li {
     right: -3em;
 }
 
-.splide__slide::marker {
-    display: none;
+ul.splide__list > li::marker {
+    content: "";
 }
 
 @media screen and (max-width: 767px) {
