@@ -53,11 +53,11 @@ social:
 - 현재는 Firestore에 저장된 퍼즐 중 무작위 선택 후 플레이 가능
 
 <!-- card: ☁️ Firebase Firestore 구조 -->
-### 퍼즐 정보
+### 🧩 퍼즐 정보
 - **MapId**와 **MapData**로 컬렉션을 나누어 저장
 - **MapId**: 레벨을 식별하는 외부용 정보
 - **MapData**: 실제 퍼즐 구성 데이터
-### 유저 시스템(예정)
+### 👤 유저 시스템(예정)
 - 추후 Firebase Authentication을 도입하여 구현
 - UserData 컬렉션 추가
 - 유저가 만든 MapId 코드 리스트 보관

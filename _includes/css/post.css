@@ -106,11 +106,12 @@
 }
 
 .card h2 {
-    margin-bottom: 25px;
+    margin-bottom: 12px;
     font-size: 19px;
 }
 
 .card-content h3 {
+    margin-top: 12px;
     font-size: 19px;
     text-align: left;
 }
