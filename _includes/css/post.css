@@ -113,6 +113,10 @@
     display: none;
 }
 
+.card-content h4 {
+    text-align: left;
+}
+
 .card-content h3::after {
     display: none;
 }

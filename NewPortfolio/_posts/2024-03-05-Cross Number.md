@@ -17,14 +17,14 @@ social:
 
 ## 💡 게임 개요
 
-**✨ 장르**
+#### ✨ 장르
 - 수식 기반 퍼즐
 
-**🛠 사용 도구**
+#### 🛠 사용 도구
 - Unity
 - Firebase Firestore
 
-**👤 담당**
+#### 👤 담당
 - 게임 기획
 - 프로그래밍
 
@@ -55,10 +55,12 @@ social:
 <!-- card: 데이터 구조 -->
 ## ☁️ Firebase Firestore 구조
 
-- 퍼즐 정보를 **MapId**와 **MapData**로 컬렉션을 나누어 저장
+- 퍼즐 정보
+  - **MapId**와 **MapData**로 컬렉션을 나누어 저장
   - **MapId**: 레벨을 식별하는 외부용 정보
   - **MapData**: 실제 퍼즐 구성 데이터
-- 추후 Firebase Authentication을 도입할 경우:
+- 유저 시스템(예정)
+  - 추후 Firebase Authentication을 도입하여 구현
   - UserData 컬렉션 추가
   - 유저가 만든 MapId 코드 리스트 보관
   - 맵 수정/삭제 권한 부여 가능
