@@ -96,6 +96,27 @@
     margin: 0 auto;
 }
 
+
+.card-content h2::before {
+    display: none;
+}
+
+.card-content h2::after {
+    display: none;
+}
+
+.card-content h2 {
+    margin-bottom: 0;
+}
+
+.card-content h3::before {
+    display: none;
+}
+
+.card-content h3::after {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .post .left{
         width: auto;

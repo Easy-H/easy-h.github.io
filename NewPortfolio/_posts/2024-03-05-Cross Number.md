@@ -14,11 +14,11 @@ social:
 ---
 
 <!-- card: 개요 -->
-## ✨ 장르: 수식 기반 퍼즐
-## 🛠 사용 도구
+### ✨ 장르: 수식 기반 퍼즐
+### 🛠 사용 도구
 - Unity
 - Firebase Firestore
-## 👤 담당
+### 👤 담당
 - 게임 기획
 - 프로그래밍
 
@@ -49,6 +49,7 @@ social:
 <!-- card: 데이터 구조 -->
 ## ☁️ Firebase Firestore 구조
 
+<!-- card: 데이터 구조 -->
 ### 📁 MapId 컬렉션
 
 - 레벨을 식별하는 외부용 정보
@@ -60,6 +61,8 @@ Collection: MapId
        ├── key: "ABC123"       ← MapData 문서 ID
        └── name: "곱셈 연습 맵"
 ```
+
+<!-- card: 데이터 구조 -->
 ### 📁 MapData 컬렉션
 - 실제 퍼즐 구성 데이터 저장
 - 각 퍼즐 유닛을 번호(key)로 나열한 구조
