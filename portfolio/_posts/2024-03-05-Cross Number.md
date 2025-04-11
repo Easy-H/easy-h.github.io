@@ -58,11 +58,11 @@ social:
 - **MapId**: 레벨을 식별하는 외부용 정보
 - **MapData**: 실제 퍼즐 구성 데이터
 ### 유저 시스템(예정)
-  - 추후 Firebase Authentication을 도입하여 구현
-  - UserData 컬렉션 추가
-  - 유저가 만든 MapId 코드 리스트 보관
-  - 맵 수정/삭제 권한 부여 가능
-  - 즐겨찾기, 추천, 신고 기능 확장 고려
+- 추후 Firebase Authentication을 도입하여 구현
+- UserData 컬렉션 추가
+- 유저가 만든 MapId 코드 리스트 보관
+- 맵 수정/삭제 권한 부여 가능
+- 즐겨찾기, 추천, 신고 기능 확장 고려
 
 <!-- card: ☁️ Firebase Firestore 구조 -->
 

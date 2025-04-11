@@ -97,15 +97,15 @@
     margin: 0 auto;
 }
 
-.card-content h2::before {
+.card h2::before {
     display: none;
 }
 
-.card-content h2::after {
+.card h2::after {
     display: none;
 }
 
-.card-content h2 {
+.card h2 {
     margin-bottom: 25px;
     font-size: 19px;
 }
