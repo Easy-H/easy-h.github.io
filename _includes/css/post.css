@@ -117,6 +117,22 @@
     display: none;
 }
 
+.splide__pagination {
+    bottom: -48px;
+}
+
+.splide__arrow--prev {
+    left: -3em;
+}
+
+.splide__arrow--next {
+    right: -3em;
+}
+
+.splide__slide::marker {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .post .left{
         width: auto;
