@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [팀 프로젝트, 게임]
 thumbnail: TilemapAdventure.png
 summary: "🔧 Unity | Photon&#10;🌟 턴제 RPG&#10;🎮 상태: 완료"
-iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" style="width: 1980px; height: 1200px; transform: scale(0.1515) translateX(-50%); /* 300/1980 */ transform-origin: top left; border: none;"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>
+iframe: '<iframe frameborder="0" src="https://itch.io/embed-upload/9259896" allow="autoplay; fullscreen" style="width: 1980px; height: 1200px; transform: scale(0.1515) translateX(-50%); /* 300/1980 */ transform-origin: top left; border: none;"><a href="https://sodaxi.itch.io/tile-adventure">Play TileMapAdventure on itch.io</a></iframe>'
 social:
   - title: github
     info: Code
@@ -13,6 +13,7 @@ social:
     url: https://sodaxi.itch.io/tile-adventure
 ---
 <!-- card: 💡 게임 개요 -->
+
 
 ### ✨ 장르
 - 턴제 RPG
