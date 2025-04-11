@@ -15,12 +15,15 @@ social:
 
 <!-- card: 개요 -->
 
-## 🧠 게임 개요
+## 💡 게임 개요
+
 **✨ 장르**
 - 수식 기반 퍼즐
+
 **🛠 사용 도구**
 - Unity
 - Firebase Firestore
+
 **👤 담당**
 - 게임 기획
 - 프로그래밍
@@ -52,21 +55,31 @@ social:
 <!-- card: 데이터 구조 -->
 ## ☁️ Firebase Firestore 구조
 
-### 📁 MapId 컬렉션
+- 퍼즐 정보를 **MapId**와 **MapData**로 컬렉션을 나누어 저장
+  - **MapId**: 레벨을 식별하는 외부용 정보
+  - **MapData**: 실제 퍼즐 구성 데이터
+- 추후 Firebase Authentication을 도입할 경우:
+  - UserData 컬렉션 추가
+  - 유저가 만든 MapId 코드 리스트 보관
+  - 맵 수정/삭제 권한 부여 가능
+  - 즐겨찾기, 추천, 신고 기능 확장 고려
 
+<!-- card: 데이터 구조 -->
+
+### 📁 MapId 컬렉션
 - 레벨을 식별하는 외부용 정보
 - key-value 쌍으로 MapData의 위치와 이름을 보유
 
 ```plaintext
 Collection: MapId
  └── Document ID: 랜덤 코드 (예: "X8PQ4")
-       ├── key: "ABC123"       ← MapData 문서 ID
+       ├── key: "ABC123" ← MapData 문서 ID
        └── name: "곱셈 연습 맵"
 ```
 
 <!-- card: 데이터 구조 -->
 ### 📁 MapData 컬렉션
-- 실제 퍼즐 구성 데이터 저장
+- 실제 퍼즐 구성 데이터
 - 각 퍼즐 유닛을 번호(key)로 나열한 구조
 ```plaintext
 Collection: MapData
@@ -82,16 +95,8 @@ Collection: MapData
        └── ...
 ```
 
-<!-- card: 추가 계획 -->
-### 🔐 유저 시스템 설계 (예정)
-- 추후 Firebase Authentication을 도입할 경우:
-  - UserData 컬렉션 추가
-  - 유저가 만든 MapId 코드 리스트 보관
-  - 맵 수정/삭제 권한 부여 가능
-  - 즐겨찾기, 추천, 신고 기능 확장 고려
-
 <!-- card: 회고 -->
-## 🌱 회고 및 기술 포인트
+## 🌱 회고
 - 실질적 사용자 제작 콘텐츠(UGC)를 구성하고 검증하는 시스템 설계 경험
 - Firebase Firestore의 컬렉션/문서 기반 데이터 구조를 분리 설계하여 확장성 확보
 - 익명 사용 환경에서의 데이터 식별 및 공유 흐름 설계
