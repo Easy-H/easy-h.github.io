@@ -9,7 +9,7 @@ layout: default
       {% endfor %}
     </ul>
     <h1>{{ page.title }}</h1>
-    <div class="post">
+    <div class="portfolio">
       <div markdown="1" class="right text-left">
         {% capture content %}{{ page.content | markdownify }}{% endcapture %}
         {% assign cards = content | split: '<!-- card:' %}

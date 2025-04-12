@@ -97,34 +97,34 @@
     margin: 0 auto;
 }
 
-.card h2::before {
+.portfolio h2::before {
     display: none;
 }
 
-.card h2::after {
+.portfolio h2::after {
     display: none;
 }
 
-.card h2 {
+.portfolio h2 {
     margin-bottom: 25px;
     font-size: 19px;
 }
 
-.card-content h3 {
+.portfolio h3 {
     margin-top: 25px;
     font-size: 19px;
     text-align: left;
 }
 
-.card-content h3::before {
+.portfolio h3::before {
     display: none;
 }
 
-.card-content h4 {
+.portfolio h4 {
     text-align: left;
 }
 
-.card-content h3::after {
+.portfolio h3::after {
     display: none;
 }
 
