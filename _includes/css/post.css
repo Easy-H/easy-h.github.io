@@ -82,14 +82,15 @@
     font-weight: 600;
 
 }
-.post .left {
+
+.post .left, .portfolio .left {
     float: left;
     padding: 0 25px;
     width: 50%;
     margin: 0 auto;
 }
 
-.post .right {
+.post .right, .portfolio .right {
     float: right;
     padding: 0 25px;
     padding-bottom: 75px;
