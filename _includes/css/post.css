@@ -34,18 +34,18 @@
     list-style-position: inside;
 }
 
-.post li > ul {
+.post li > ul, .portfolio li > ul {
     margin-left: 30px;
 }
 
-.post ul > li::marker {
+.post ul > li::marker, .portfolio ul > li::marker {
     content: "\f005\00a0\00a0";
     font-family: 'FontAwesome';
     font-size: 12px;
 
 }
 
-.post ul > li > ul > li::marker {
+.post ul > li > ul > li::marker, .portfolio ul > li > ul > li::marker {
     content: "\f0c6\00a0\00a0";
     font-family: 'FontAwesome';
     font-size: 15px;
