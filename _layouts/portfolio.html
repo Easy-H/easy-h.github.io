@@ -3,7 +3,7 @@ layout: default
 ---
 <section>
     <div class="container">
-      <ul>
+      <ul class="text-center">
         {% for tag in page.tags %}
         <li class="blog-tag">{{ tag }}</li>
         {% endfor %}
@@ -13,7 +13,7 @@ layout: default
         {{ page.content }}
       </div>
     </div>
-    <div class="portfolio">
+    <div class="container text-center">
       <ul class="list-inline item-details">
         <li>
           <a href="/portfolio/#projects" class="btn-social btn-outline" title="Home">
