@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [개인 프로젝트, 게임]
 thumbnail: CrossNumber.png
 summary: "🔧 Unity | Firebase&#10;🌟 퍼즐&#10;🎮 상태: 완료"
-iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/11880307?color=333333" allow="autoplay; fullscreen" width="300" height="470"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></iframe>
+iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/14259549?color=333333" allowfullscreen="" width="300" height="470"><a href="https://easy-h.itch.io/crossnumber">Play Cross Number on itch.io</a></iframe>
 social:
   - title: github
     info: Code

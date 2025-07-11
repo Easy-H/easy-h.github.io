@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [개인 프로젝트, 게임]
 thumbnail: HappyPlanet.png
 summary: "🔧 Unity | Firebase&#10;🌟 시뮬레이션 게임&#10;🎮 상태: 완료"
-iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/14251610?color=333333" allowfullscreen="" width="300" height="500"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
+iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/14259945?color=333333" allowfullscreen="" width="300" height="500"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
 social:
   - title: github
     info: Code
@@ -94,10 +94,10 @@ Happy Planet의 시간 시스템은 **데이터베이스 복구 시스템(WAL: W
 ### 📁 Firestore
 
 - 이벤트 로그 저장  
-  - 예: `/{UID}/{PlanetID}/Logs/`
+  - 예: `"users"/{UID}/log/{PlanetID}/`
 - 각 로그는 유닛 변경 이벤트만 포함 (자원 획득 제외)
 
 ### 📡 Realtime Database
 
-- `/MetaData`에 현재 게임 시간 및 자원 상태 저장
+- `/metadata/{UID}/{PlanetID}`에 현재 게임 시간 및 자원 상태 저장
 - 행성의 재화 정보, 시간 정보를 저장
