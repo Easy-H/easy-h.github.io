@@ -46,7 +46,7 @@ social:
 		- 캐릭터의 정보를 Photon Network를 이용하여 관리
 		- Photon Network에 접속하지 않는 경우 플레이 불가능
 			- 로컬 플레이 기능을 제공하기 위해서는 새로운 캐릭터 클래스 필요
-	- 개선 후: 캐릭터 조작 인터페이스(ICharactorController)에서 캐릭터 상태정보 관리
+	- 개선: 캐릭터 조작 인터페이스(ICharactorController)에서 캐릭터 상태정보 관리
 		- 상태 정보: 캐릭터 위치, 장비, 체력, 능력치 등
 		- 로컬 플레이의 경우 캐릭터 상태 정보를 LocalCharacterController에서 관리
 		- 네트워크 플레이의 경우 캐릭터 정보를 PhotonNetwork에서 관리
@@ -58,7 +58,7 @@ social:
 	- 개선 전: 캐릭터에 조작 방식이 통합
 		- AI 캐릭터는 AI에 의해서만 조작, 사용자 조작 캐릭터는 사용자에 의해서만 조작
 		- 적 캐릭터와 플레이어블 캐릭터가 분리
-	- 개선 후: 캐릭터 행동 선택 인터페이스(IActionSelector) 분리
+	- 개선: 캐릭터 행동 선택 인터페이스(IActionSelector) 분리
 		- AI를 선택한 경우 그 캐릭터의 IActionSelector는 AISelector로 지정
 		- 사용자 조작을 선택한 경우 그 캐릭터의 IActionSelector는 UI로 제공되는 GUIActionSelector로 지정
 		- 적 캐릭터로 지정되었던 캐릭터도 조작 가능해짐
@@ -67,7 +67,7 @@ social:
 <!-- card: 🛠️ 주요 기능 및 기여 -->
 ### 🔥 리팩토링
 - ScriptableObject를 이용한 캐릭터, 아이템 정보 관리
-	- 기존: 캐릭터 정보가 캐릭터 프리팹에 저장
+	- 개선 전: 캐릭터 정보가 캐릭터 프리팹에 저장
 		- 캐릭터, 아이템 정보 수정이 어려움
 		- 캐릭터, 아이템 생성 시 불필요한 정보 포함 => 공간 비용 소모
 	- 개선: ScriptableObject를 이용한 캐릭터, 아이템 정보 관리

@@ -5,12 +5,12 @@ thumbnail: SuperPongBros.png
 summary:  "🔧 Unity | Firebase&#10;🌟 벽돌깨기, 슈팅&#10;🎮 상태: 완료"
 iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/11887825?color=333333" allow="autoplay; fullscreen" width="220" height="500"><a href="https://easy-h.itch.io/superpongbros">Play Super Pong Bros on itch.io</a></iframe>
 social:
-  - title: github
-    info: Code
-    url: https://github.com/Easy-H/Break-Out
-  - title: itch-io
-    info: Play
-    url: https://easy-h.itch.io/superpongbros
+    - title: github
+      info: Code
+      url: https://github.com/Easy-H/Break-Out
+    - title: itch-io
+      info: Play
+      url: https://easy-h.itch.io/superpongbros
 ---
 <!-- card: 💡 게임 개요 -->
 
@@ -48,10 +48,10 @@ social:
 
 ### 📜 퀘스트, 페이즈 시스템 구현
 - 점수가 일정 이상일 경우 퀘스트 달성 및 다음 페이즈로 전환
-	- 퀘스트 조건을 인터페이스로 추상화 및 구현
+	  - 퀘스트 조건을 인터페이스로 추상화 및 구현
 - 페이즈에 따라 등장하는 적 종류 및 적 수 변화
 - ScriptableObject를 이용하여 퀘스트 조건, 페이즈 데이터 분리 관리
-	- 게임 밸런스를 코드 수정 없이 빠르게 조정 가능
+	  - 게임 밸런스를 코드 수정 없이 빠르게 조정 가능
   
 <!-- card: 🛠️ 주요 기능 및 기여 -->
 

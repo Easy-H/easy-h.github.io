@@ -35,7 +35,7 @@
 }
 
 .post li > ul, .portfolio li > ul {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .post ul > li::marker, .portfolio ul > li::marker {
@@ -46,7 +46,7 @@
 }
 
 .post ul > li > ul > li::marker, .portfolio ul > li > ul > li::marker {
-    content: "\f621\00a0\00a0"   
+    content: "\f192\00a0\00a0"   
 }
 
 .post h1 , .portfolio h1{
