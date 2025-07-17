@@ -41,21 +41,21 @@ social:
 <!-- card: 🛠️ 주요 기능 및 기여 -->
 
 ### 📦 오브젝트 풀을 이용한 비용 절약
-- 싱글톤 패턴을 이용하여 ObjectPoolManager 프리팹 관리
-- 사용이 끝난 프리팹을 코드에 따라 Dictionary 자료구조에 저장
-- 프리팹을 요청하는 경우 Dictionary에 존재하는 지 확인 후 생성된 프리팹/생성한 프리팹을 반환
+- 싱글톤 패턴을 이용하여 `ObjectPoolManager` 프리팹 관리
+- 사용이 끝난 프리팹을 코드에 따라 `Dictionary` 자료구조에 저장
+- 프리팹을 요청하는 경우 `Dictionary`에 존재하는 지 확인 후 생성된 프리팹/생성한 프리팹을 반환
 - 프리팹 생성 비용 절약을 통한 성능 개선
 
 ### 📜 퀘스트, 페이즈 시스템 구현
 - 점수가 일정 이상일 경우 퀘스트 달성 및 다음 페이즈로 전환
 	  - 퀘스트 조건을 인터페이스로 추상화 및 구현
 - 페이즈에 따라 등장하는 적 종류 및 적 수 변화
-- ScriptableObject를 이용하여 퀘스트 조건, 페이즈 데이터 분리 관리
+- `ScriptableObject`를 이용하여 퀘스트 조건, 페이즈 데이터 분리 관리
 	  - 게임 밸런스를 코드 수정 없이 빠르게 조정 가능
   
 <!-- card: 🛠️ 주요 기능 및 기여 -->
 
 ### 🎯 스코어 보드 및 랭킹 관리
 - 게임 종료 후 Firebase Realtime Database에 점수 저장
-- 플랫폼(로컬, Firebase, WebGL Firebase)에 관계없이 데이터를 일관적으로 접근할 수 있도록 IDatabaseConnector 인터페이스를 설계
+- 플랫폼(로컬, Firebase, WebGL Firebase)에 관계없이 데이터를 일관적으로 접근할 수 있도록 `IDatabaseConnector` 인터페이스를 설계
     - 시스템의 확장성, 유지보수성 확보

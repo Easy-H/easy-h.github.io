@@ -42,9 +42,9 @@ social:
 <!-- card: 🛠️ 주요 기능 및 기여 -->
 
 ### 🔢 유닛의 위치 제어 및 유닛 위치에 따른 스테이지 클리어 확인 기능
-- 싱글톤 패턴을 이용한 UnitManager가 유닛 생성, 유닛 위치 관리
-    - Dictionary를 이용하여 유닛의 위치 정보 저장
-- 유닛의 정보는 ScriptableObject로 관리
+- 싱글톤 패턴을 이용한 `UnitManager`가 유닛 생성, 유닛 위치 관리
+    - `Dictionary`를 이용하여 유닛의 위치 정보 저장
+- 유닛의 정보는 `ScriptableObject`로 관리
 - 스택을 이용하여 이동 경로 저장
 - 씬에 놓인 유닛의 위치를 기반으로 수식의 결과 확인 및 클리어 확인
     - '=' 유닛의 상하의 계산식의 결과, 좌우의 계산식의 결과를 비교
@@ -58,7 +58,7 @@ social:
 - 사용자 로그인 및 게임 데이터를 Firebase를 이용하여 관리
     - Unity Firebase SDK가 WebGL 빌드에 작동하지 않는 문제를 해결하기 위해 jslib를 개발하여 WebGL 환경에서도 작동하도록 구현
 - 로그인하지 않은 사용자의 데이터는 로컬에 JSON 형태로 저장하여 오프라인 플레이 지원
-- 플랫폼(로컬, Firebase, WebGL Firebase)에 관계없이 로그인, 데이터를 일관적으로 접근할 수 있도록 IAuth, IDatabaseConnector 인터페이스를 설계
+- 플랫폼(로컬, Firebase, WebGL Firebase)에 관계없이 로그인, 데이터를 일관적으로 접근할 수 있도록 `IAuth`, `IDatabaseConnector` 인터페이스를 설계
     - 시스템의 확장성, 유지보수성 확보
 
 <!-- card: 🛠️ 주요 기능 및 기여 -->
@@ -70,7 +70,7 @@ social:
 ### ➦ 스테이지 공유 기능
 - 클리어 가능한 스테이지를 제작자가 플레이 하여 클리어 가능한지 확인하는 절차를 통해 확인
 - 클리어 가능한 스테이지를 로그인 된 사용자가 업로드 한 스테이지의 개수가 4개 이하일 경우 데이터베이스에 등록
-    - 데이터베이스는 IDatabaseConnector를 이용하여 접근
+    - 데이터베이스는 `IDatabaseConnector`를 이용하여 접근
 
 <!-- card: ☁️ Firebase Firestore 구조 -->
 ### 🧩 퍼즐 정보
