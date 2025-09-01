@@ -5,6 +5,9 @@ thumbnail: AI.png
 summary: "🔧 Unity&#10;🌟 보드 게임&#10;🎮 상태: 완료&#10;🏆 경북 게임잼 2024 2등"
 iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/13247229?color=333333" allowfullscreen="" width="300" height="200"><a href="https://easy-h.itch.io/arena-invader">Play Arena Invader on itch.io</a></iframe>
 social:
+  - title: github
+    info: Code
+    url: https://github.com/Team-Prepper/Arena-Invader
   - title: itch-io
     info: Play
     url: https://easy-h.itch.io/arena-invader
@@ -18,6 +21,12 @@ social:
 #### 📱 플랫폼
 - Windows
 - WebGL(멀티 플레이 불가능)
+
+#### ⏰ 개발 기간
+- 게임 플레이 : 2024-11-08 ~ 2023-10-13
+- 멀티플레이: 2025-01-24 ~ 진행중
+
+<!-- card: 💡 게임 개요 -->
 
 #### 🛠 사용 도구
 - Unity
