@@ -1,0 +1,90 @@
+---
+layout: new_default
+title: 활동
+---
+{% include about.html %}
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 id="projects">게임 작업물</h2>
+    </div>
+  </div>
+  <div class="portfolio-flex-row">
+    {% for post in site.categories.portfolio %}
+    {% if post.tags contains "게임" %}
+    <div class="portfolio-flex-item portfolio-item">
+      <a href="{{ post.url }}" title="{{ post.summary }}"class="portfolio-link">
+        <div class="portfolio-inner">
+          <div class="box-modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-1.5x"></i>
+              </div>
+            </div>
+            <img src="{{ site.url }}/img/portfolio/{{ post.thumbnail }}" class="img-modal" alt="image-alt">
+          </div>
+        </div>
+        <p class="portfolio-txt">{{ post.title }}</p>
+      </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<section id="portfolio">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 id="projects">기타 작업물</h2>
+    </div>
+  </div>
+  <div class="portfolio-flex-row">
+    {% for post in site.categories.portfolio %}
+    {% if post.tags contains "게임" %}
+      {% continue %}
+    {% endif %}
+    <div class="portfolio-flex-item portfolio-item">
+      <a href="{{ post.url }}" title="{{ post.summary }}"class="portfolio-link">
+        <div class="portfolio-inner">
+          <div class="box-modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-1.5x"></i>
+              </div>
+            </div>
+            <img src="{{ site.url }}/img/portfolio/{{ post.thumbnail }}" class="img-modal" alt="image-alt">
+          </div>
+        </div>
+        <p class="portfolio-txt">{{ post.title }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>교내 활동</h2>
+    </div>
+  </div>
+  <div class="text-center">
+    <p>🏅 2019년 영남대학교 제4회 컴퓨터공학과 소프트웨어 경진대회 우수상</p>
+    <p>🏅 2022년 영남대학교 오픈소스 SW개발 경진대회 알고리즘 부문 대상</p>
+    <p>🧑‍🏫 2023년 2학기 전공 강의지원 프로그램(자료구조)</p>
+    <p>🧑‍🏫 2024년 1학기 전공 강의지원 프로그램(알고리즘)</p>
+    <p>🏅 2024년 영남대학교 제2회 오픈소스 SW개발 경진대회 알고리즘 부문 최우수상</p>
+    <p>🏅 2024년 영남대학교 제3회 오픈소스 SW개발 경진대회 알고리즘 부문 우수상</p>
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>교외 활동</h2>
+    </div>
+  </div>
+  <div class="text-center">
+    <p>🏅 2022년 경북 게임인 해커톤 4등(팀: IXXP)</p>
+    <p>🏅 2024년 경북 게임인 게임잼 2등(팀: 나폴리맛 피자)</p>
+    <p>🏅 2024년 경북형 인재양성-취업연계 메타버스 아카데미 프로젝트 챌린지 우수상</p>
+  </div>
+</section>
