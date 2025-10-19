@@ -128,11 +128,11 @@
 }
 
 .splide__arrow--prev {
-    left: -3em;
+    left: -25px;
 }
 
 .splide__arrow--next {
-    right: -3em;
+    right: -25px;
 }
 
 ul.splide__list > li::marker {
