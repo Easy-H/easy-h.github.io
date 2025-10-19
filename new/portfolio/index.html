@@ -11,7 +11,7 @@ title: 활동
     </div>
   </div>
   <div class="portfolio-flex-row">
-    {% for post in site.categories.portfolio %}
+    {% for post in site.categories.new.portfolio %}
     {% if post.tags contains "게임" %}
     <div class="portfolio-flex-item portfolio-item">
       <a href="{{ post.url }}" title="{{ post.summary }}"class="portfolio-link">
