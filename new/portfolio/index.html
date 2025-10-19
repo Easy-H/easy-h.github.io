@@ -39,7 +39,7 @@ title: 활동
     </div>
   </div>
   <div class="portfolio-flex-row">
-    {% for post in site.categories.portfolio %}
+    {% for post in site.categories.new.portfolio %}
     {% if post.tags contains "게임" %}
       {% continue %}
     {% endif %}
