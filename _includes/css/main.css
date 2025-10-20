@@ -274,6 +274,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    background-color: var(--secondary-color);
     height: 80px;
     position : relative;
 }
