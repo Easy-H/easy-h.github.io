@@ -23,7 +23,7 @@
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background-color: #{{ site.color.secondary }};
+    background-color: var("--secondary-color");
 }
 
 #portfolio .portfolio-item:hover .portfolio-link .caption {
@@ -84,7 +84,7 @@
     overflow: hidden;
     position: relative;
     border: solid;
-    border-color: #{{ site.color.secondary }};
+    border-color: var("--secondary-color");
 }
 .img-modal{
     width: 100%;
