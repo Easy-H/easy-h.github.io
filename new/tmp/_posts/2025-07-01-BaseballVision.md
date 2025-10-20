@@ -1,8 +1,9 @@
 ---
-layout: portfolio
+layout: portfolio_with_preview
 tags: [개인 프로젝트, 도구]
 thumbnail: BaseballVision.png
 summary: "🔧 &#10;🌟 인체구조 시각화&#10;🎮 상태: 진행중"
+preview: <iframe frameborder="0" src="https://underhand-lab.github.io" allowfullscreen="" width="300" height="200"></iframe>
 social:
   - title: github
     info: Code
