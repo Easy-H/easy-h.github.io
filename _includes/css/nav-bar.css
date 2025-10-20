@@ -61,7 +61,23 @@
 }
 
 .navbar *[select="true"] {
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;;
+}
+
+.navbar li a {
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin: 5px auto;
+    padding: 0;
+    transition: width 0.3s ease;
+    
+}
+
+.navbar li a:hover {
+    width: 30px;
 }
 
 .navbar-nav>.active>a {
