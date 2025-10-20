@@ -61,7 +61,12 @@
 }
 
 .navbar *[select="true"] {
-    color: var(--secondary-color) !important;;
+    color: var(--primary-color) !important;;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    padding-bottom: 0;
 }
 
 .navbar li a::after {
@@ -74,6 +79,10 @@
     padding: 0;
     transition: width 0.3s ease;
     
+}
+
+.nav li a:hover {
+    color: inherit;
 }
 
 .navbar li a:hover::after {
