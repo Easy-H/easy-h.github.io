@@ -76,7 +76,7 @@
     width: 0px;
     height: 3px;
     background-color: var(--primary-color);
-    margin-top: 5px auto;
+    margin: 5px auto;
     padding: 0;
     transition: width 0.3s ease;
     
