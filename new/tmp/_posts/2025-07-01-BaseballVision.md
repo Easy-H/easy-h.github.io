@@ -3,7 +3,7 @@ layout: portfolio_with_preview
 tags: [개인 프로젝트, 도구]
 thumbnail: BaseballVision.png
 summary: "🔧 &#10;🌟 인체구조 시각화&#10;🎮 상태: 진행중"
-preview: <iframe frameborder="0" src="https://underhand-lab.github.io" allowfullscreen="" width="300" height="200"></iframe>
+preview: <iframe frameborder="0" src="https://underhand-lab.github.io" allowfullscreen="" width="300" height="500"></iframe>
 social:
   - title: github
     info: Code
@@ -24,6 +24,8 @@ social:
 - 관절의 각도 정보를 추출하여 힘의 사용이 효율적인지 확인을 돕습니다. 
 - 관절의 속도 정보를 추출하여 힘의 사용 시작 시점 확인을 돕습니다.
 - 관절의 높이 정보를 추출하여 선수에게 적합한 자세 확인을 돕습니다.
+
+<!-- card: 🔧 기능 (Developments) -->
 ### 공 궤적 인식
 - YOLO의 객체 인식을 이용하여 영상에서 공을 추적합니다.
 - 지면 대비 공의 이동 각도를 분석합니다.

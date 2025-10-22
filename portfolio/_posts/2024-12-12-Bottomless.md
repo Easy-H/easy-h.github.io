@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [팀 프로젝트, 게임]
 thumbnail: Bottomless.png
 summary: "🔧 Unreal&#10;🌟 생존 게임&#10;🎮 상태: 완료&#10;🏆 경북형 인재양성-취업연계 메타버스 아카데미 프로젝트 챌린지 우수상"
-iframe: <video width="300" height="225" controls><source src="/portfolio/video/BottomLess.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+preview: <video width="300" height="225" controls><source src="/portfolio/video/BottomLess.mp4" type="video/mp4">Your browser does not support the video tag.</video>
 social:
   - title: github
     info: Code

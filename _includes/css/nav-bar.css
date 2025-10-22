@@ -67,6 +67,7 @@
 .navbar-nav li a {
     color: #fff !important;
     padding-bottom: 0;
+    text-align: center;
 }
 
 .navbar li a::after {
@@ -75,7 +76,7 @@
     width: 0px;
     height: 3px;
     background-color: var(--primary-color);
-    margin: 5px auto;
+    margin-top: 5px auto;
     padding: 0;
     transition: width 0.3s ease;
     

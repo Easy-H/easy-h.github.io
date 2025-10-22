@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [팀 프로젝트, 게임]
 thumbnail: AI.png
 summary: "🔧 Unity&#10;🌟 보드 게임&#10;🎮 상태: 완료&#10;🏆 경북 게임잼 2024 2등"
-iframe: <iframe frameborder="0" src="https://itch.io/embed-upload/13247229?color=333333" allowfullscreen="" width="300" height="200"><a href="https://easy-h.itch.io/arena-invader">Play Arena Invader on itch.io</a></iframe>
+privew: <iframe frameborder="0" src="https://itch.io/embed-upload/13247229?color=333333" allowfullscreen="" width="300" height="200"><a href="https://easy-h.itch.io/arena-invader">Play Arena Invader on itch.io</a></iframe>
 social:
   - title: github
     info: Code

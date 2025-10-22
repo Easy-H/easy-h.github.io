@@ -2,7 +2,7 @@
 layout: portfolio_game
 tags: [참여 프로젝트, 게임]
 thumbnail: StudentSurvivor.jpg
-iframe: '<iframe frameborder="0" src="https://itch.io/embed-upload/9246182" allow="autoplay; fullscreen" style="width: 600px; height: 900px; transform: scale(0.5) translateX(-50%); /* 300/1980 */ transform-origin: top left; border: none;"><a href="https://rlatldnd1.itch.io/student-survivor">Play Student Survivor on itch.io</a></iframe>'
+privew: '<iframe frameborder="0" src="https://itch.io/embed-upload/9246182" allow="autoplay; fullscreen" style="width: 600px; height: 900px; transform: scale(0.5) translateX(-50%); /* 300/1980 */ transform-origin: top left; border: none;"><a href="https://rlatldnd1.itch.io/student-survivor">Play Student Survivor on itch.io</a></iframe>'
 social:
   - title: github
     url: https://github.com/asdf-1256/Student_Survivor

@@ -425,3 +425,9 @@ footer .footer-below {
         opacity: 1
     }
 }
+
+#wrapper .container {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
