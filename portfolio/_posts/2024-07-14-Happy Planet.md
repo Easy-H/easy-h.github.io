@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [개인 프로젝트, 게임]
 thumbnail: HappyPlanet.png
 summary: "🔧 Unity | Firebase&#10;🌟 시뮬레이션 게임&#10;🎮 상태: 완료"
-preview: <iframe frameborder="0" src="https://itch.io/embed-upload/14261398?color=333333" allowfullscreen="" width="300" height="500"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
+preview: <iframe frameborder="0" src="https://itch.io/embed-upload/15908084?color=333333" allowfullscreen="" width="300" height="500"><a href="https://easy-h.itch.io/happy-planet">Play Happy Planet on itch.io</a></iframe>
 social:
   - title: github
     info: Code
