@@ -7,7 +7,7 @@ preview: <video width="300" height="225" controls><source src="/portfolio/video/
 social:
   - title: github
     info: Code
-    url: https://github.com/Team-Prepper/BottomLess
+    url: https://github.com/Team-Prepper/BottomLess/tree/Refactoring
 ---
 
 <!-- card: 💡 게임 개요 -->

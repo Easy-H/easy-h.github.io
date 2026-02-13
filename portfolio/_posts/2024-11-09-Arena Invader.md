@@ -7,7 +7,7 @@ preview: <iframe frameborder="0" src="https://itch.io/embed-upload/13247229?colo
 social:
   - title: github
     info: Code
-    url: https://github.com/Team-Prepper/Arena-Invader
+    url: https://github.com/Team-Prepper/Arena-Invader/tree/Multiplay
   - title: itch-io
     info: Play
     url: https://easy-h.itch.io/arena-invader
