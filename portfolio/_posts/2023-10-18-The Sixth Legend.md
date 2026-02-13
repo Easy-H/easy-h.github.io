@@ -3,7 +3,7 @@ layout: portfolio_game
 tags: [팀 프로젝트, 게임]
 thumbnail: the-sixth-legend.png
 summary: "🔧 Unity | Photon&#10;🌟 턴제 RPG&#10;🎮 상태: 완료"
-preview: <iframe frameborder="0" src="https://itch.io/embed-upload/16453574" allow="autoplay; fullscreen" style="width: 1980px; height: 1200px; transform: scale(0.1515) translateX(-50%); /* 300/1980 */ transform-origin: top left; border: none;"><a href="https://easy-h.itch.io/the-sixth-legend">Play The Sixth Legend on itch.io</a></iframe>
+preview: '<iframe frameborder="0" src="https://itch.io/embed-upload/16453574" allow="autoplay; fullscreen" style="width: 1980px; height: 1200px; transform: scale(0.1515) translateX(-50%); /* 300/1980 */ transform-origin: top left; border: none;"><a href="https://easy-h.itch.io/the-sixth-legend">Play The Sixth Legend on itch.io</a></iframe>'
 social:
   - title: github
     info: Code
