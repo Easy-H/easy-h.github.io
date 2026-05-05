@@ -17,6 +17,16 @@
 
 }
 
+.post h1,
+.portfolio h1 {
+    text-align: center;
+}
+
+.post h1::after,
+.portfolio h1::after {
+    margin: 10px auto 0;
+}
+
 .post object,
 .portfolio object {
     display: block;

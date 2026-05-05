@@ -2,11 +2,14 @@
 title: 이지헌의 깃허브 블로그
 email: skysea001010@gmail.com
 url: https://easy-h.github.io
-description: "이지헌의 깃허브 블로그"
+description: "게임 프로그래머 이지헌의 기술 블로그 및 포트폴리오입니다. Unity, C++, Firebase 등 다양한 기술적 도전과 경험을 공유합니다."
 keywords: "Game Programmer"
+locale: ko_KR
 
 # 참고: https://github.com/Ileriayo/markdown-badges
 skills: 
+  - name: "C++"
+    show: <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
   - name: "C"
     show: <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
   - name: "C#"
@@ -35,10 +38,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 6799fa #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 6799fa # User Identity Color
+  primary-rgb: "103, 153, 250"
+  secondary: 1e293b # Slate 800
+  secondary-dark: 0f172a # Slate 900
 
 # Footer settings
 footer:
@@ -75,3 +78,9 @@ defaults:
       type: "posts"
       values:
       permalink: ""
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap

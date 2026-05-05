@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari] and version [e.g. 22]
--  Ruby version [e.g. 2.6.3]
+-  Ruby version [e.g. 3.2.2]
 
 **Additional context**
 Add any other context about the problem here.
